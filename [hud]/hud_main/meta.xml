@@ -1,0 +1,38 @@
+<meta>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+
+	<script type="shared" src="shared/icons_display.lua" cache="false"/>
+
+	<export function="togglePlayerHUDRow" type="shared"/>
+	<export function="addPlayerHUDRow" type="shared"/>
+	<export function="removePlayerHUDRow" type="shared"/>
+
+	<export function="togglePlayerHUDIcon" type="shared"/>
+	<export function="addPlayerHUDIcon" type="shared"/>
+	<export function="removePlayerHUDIcon" type="shared"/>
+
+	<file src="assets/images/effects.png"/>
+	<file src="assets/images/logo.png"/>
+	<file src="assets/images/star.png"/>
+	<file src="assets/images/serverid.png"/>
+	
+	<file src="assets/images/icons/money.png"/>
+	<file src="assets/images/icons/vip.png"/>
+	<file src="assets/images/icons/job.png"/>
+	<file src="assets/images/icons/session_money.png"/>
+	<file src="assets/images/icons/weapon_zone.png"/>
+	<file src="assets/images/icons/alerts.png"/>
+	<file src="assets/images/icons/chips.png"/>
+	<file src="assets/images/icons/vip_tickets.png"/>
+
+	<file src="assets/images/wz/bg.png"/>
+	<file src="assets/images/wz/bg_a.png"/>
+	
+	<oop>true</oop>
+
+	<download_priority_group>10</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

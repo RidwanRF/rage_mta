@@ -1,0 +1,28 @@
+<meta>
+
+	<script type="shared" src="shared/sources.lua" cache="false"/>
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/mute.lua" cache="false"/>
+	<script type="server" src="server/flood.lua" cache="false"/>
+	<script type="server" src="server/youtube.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/advertisement.lua" cache="false"/>
+
+	<export function="displayInfo" type="shared"/>
+	<export function="displayError" type="shared"/>
+
+	<export function="handleMessage" type="server"/>
+	<export function="addPlayerMute" type="server"/>
+	<export function="isPlayerMuted" type="server"/>
+	<export function="removePlayerMute" type="server"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

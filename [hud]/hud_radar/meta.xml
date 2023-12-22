@@ -1,0 +1,96 @@
+﻿<meta>
+	<min_mta_version client="1.3.0-9.04431" server="1.3.0-9.04570" />
+	
+	<script src="shared/points.lua" type="shared" cache="false" />	
+	
+	<script src="client/sources.lua" type="client" cache="false" />	
+	<script src="client/main.lua" type="client" cache="false" />	
+	<script src="client/hiteffect.lua" type="client" cache="false" />	
+	
+	
+	<export function="playersShowType" type="client"/>
+	<export function="getRadarCoords" type="client"/>
+	<export function="displayHitEffect" type="client"/>
+	<export function="isRadarVisible" type="client"/>
+	<export function="getRadarTexture" type="client"/>
+	<export function="setRadarTexture" type="client"/>
+	<export function="renewRadarBorder" type="server"/>
+	
+	<file src="assets/images/border.png" />
+	<file src="assets/images/border.png" />
+	<file src="assets/images/up.png" />
+	<file src="assets/images/down.png" />
+	<file src="assets/images/alpha.png" />
+	<file src="assets/images/water.png" />
+	<file src="assets/images/radar.dds" />
+	<file src="assets/images/map_mask.png" />
+	<file src="assets/images/map_shadow.png" />
+	<file src="assets/images/time.png" />
+	<file src="assets/images/line.png" />
+	<file src="assets/images/line_shadow.png" />
+	<file src="assets/images/map_1.png" />
+	<file src="assets/images/map_border.png" />
+	
+	<file src="assets/images/blip_icons/airshop.png" />
+	<file src="assets/images/blip_icons/event_shooter.png" />
+	<file src="assets/images/blip_icons/team_area.png" />
+	<file src="assets/images/blip_icons/weapon_shop.png" />
+	<file src="assets/images/blip_icons/flat.png" />
+	<file src="assets/images/blip_icons/vehicle_destroy.png" />
+	<file src="assets/images/blip_icons/flower.png" />
+	<file src="assets/images/blip_icons/autoschool.png" />
+	<file src="assets/images/blip_icons/transfer.png" />
+	<file src="assets/images/blip_icons/bank.png" />
+	<file src="assets/images/blip_icons/food_shop.png" />
+	<file src="assets/images/blip_icons/by.png" />
+	<file src="assets/images/blip_icons/vehdestroy.png" />
+	<file src="assets/images/blip_icons/camera.png" />
+	<file src="assets/images/blip_icons/carshop.png" />
+	<file src="assets/images/blip_icons/casino.png" />
+	<file src="assets/images/blip_icons/clothes_shop.png" />
+	<file src="assets/images/blip_icons/exchange.png" />
+	<file src="assets/images/blip_icons/free_business.png" />
+	<file src="assets/images/blip_icons/free_house.png" />
+	<file src="assets/images/blip_icons/fuel_station.png" />
+	<file src="assets/images/blip_icons/used_business.png" />
+	<file src="assets/images/blip_icons/used_house.png" />
+	<file src="assets/images/blip_icons/used_derrick.png" />
+	<file src="assets/images/blip_icons/handling.png" />
+	<file src="assets/images/blip_icons/numbers.png" />
+	<file src="assets/images/blip_icons/oplayer.png" />
+	<file src="assets/images/blip_icons/player.png" />
+	<file src="assets/images/blip_icons/player_business.png" />
+	<file src="assets/images/blip_icons/player_house.png" />
+	<file src="assets/images/blip_icons/target.png" />
+	<file src="assets/images/blip_icons/toll.png" />
+	<file src="assets/images/blip_icons/tuning.png" />
+	<file src="assets/images/blip_icons/watershop.png" />
+	<file src="assets/images/blip_icons/police.png" />
+	<file src="assets/images/blip_icons/job_bus.png" />
+	<file src="assets/images/blip_icons/job_post.png" />
+	<file src="assets/images/blip_icons/job_miner.png" />
+	<file src="assets/images/blip_icons/job_diver.png" />
+	<file src="assets/images/blip_icons/job_green.png" />
+	<file src="assets/images/blip_icons/job_taxi.png" />
+	<file src="assets/images/blip_icons/job_lumberjack.png" />
+	<file src="assets/images/blip_icons/job_logist.png" />
+	<file src="assets/images/blip_icons/job_rubbisher.png" />
+	<file src="assets/images/blip_icons/job_cargo.png" />
+	<file src="assets/images/blip_icons/player_derrick.png" />
+	<file src="assets/images/blip_icons/free_derrick.png" />
+	<file src="assets/images/blip_icons/point.png" />
+	<file src="assets/images/blip_icons/auction.png" />
+	<file src="assets/images/blip_icons/mansion_free.png" />
+	<file src="assets/images/blip_icons/mansion_used.png" />
+	<file src="assets/images/blip_icons/mansion_own.png" />
+	<file src="assets/images/blip_icons/battery.png" />
+	<file src="assets/images/blip_icons/bunch.png" />
+	<file src="assets/images/blip_icons/incassator.png" />
+	<file src="assets/images/blip_icons/gift.png" />
+
+
+	<export function="displayPoint" type="shared"/>
+
+	<oop>true</oop>
+	<download_priority_group>50</download_priority_group>
+</meta>

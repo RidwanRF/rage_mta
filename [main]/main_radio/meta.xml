@@ -1,0 +1,43 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/hud.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/sync.lua" cache="false"/>
+	<script type="client" src="client/player.lua" cache="false"/>
+	<script type="client" src="client/disable_gta_radio.lua" cache="false"/>
+
+	<file src="assets/images/add.png"/>
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/next.png"/>
+	<file src="assets/images/pause.png"/>
+	<file src="assets/images/play.png"/>
+	<file src="assets/images/prev.png"/>
+	<file src="assets/images/remove.png"/>
+	<file src="assets/images/repeat.png"/>
+	<file src="assets/images/search_input.png"/>
+	<file src="assets/images/sound.png"/>
+	<file src="assets/images/tab_radio.png"/>
+	<file src="assets/images/tab_saved.png"/>
+	<file src="assets/images/tab_search.png"/>
+	<file src="assets/images/tbtn.png"/>
+	<file src="assets/images/tbtn_empty.png"/>
+	<file src="assets/images/tbtn_shadow.png"/>
+	<file src="assets/images/time.png"/>
+	<file src="assets/images/volume_round.png"/>
+	<file src="assets/images/volume_slider.png"/>
+	<file src="assets/images/search.png"/>
+
+
+	
+	<oop>true</oop>
+</meta>

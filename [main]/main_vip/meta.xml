@@ -1,0 +1,24 @@
+<meta>
+	<oop>true</oop>
+
+
+	<script src="server/sources.lua" type="server"/>
+	<script src="server/main.lua" type="server"/>
+	<script src="server/finish_time.lua" type="server"/>
+	<script src="server/knife.lua" type="server"/>
+	<script src="server/vehsaver.lua" type="server"/>
+
+	<script src="shared/shared.lua" type="shared"/>
+	<script src="shared/config.lua" type="shared"/>
+
+	<script src="client/vehsaver.lua" type="client"/>
+
+	<export function="giveVip" type="server"/>
+	<export function="setVip" type="server"/>
+	<export function="isAccountVip" type="server"/>
+	<export function="isVip" type="shared"/>
+	<export function="getWorksMultiplier" type="shared"/>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+	
+</meta>>

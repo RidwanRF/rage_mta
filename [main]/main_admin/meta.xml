@@ -1,0 +1,34 @@
+<meta>
+
+	<script type="shared" src="shared/utils.lua" cache="false"/>
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/wipe.lua" cache="false"/>
+	<script type="server" src="server/bans.lua" cache="false"/>
+	<script type="server" src="server/nicklogin.lua" cache="false"/>
+	<script type="server" src="server/log.lua" cache="false"/>
+	<script type="server" src="server/payday.lua" cache="false"/>
+	<script type="server" src="server/user_data.lua" cache="false"/>
+	
+	<script type="server" src="server/commands/rmworldcar.lua" cache="false"/>
+	<script type="server" src="server/commands/changepassword.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+
+	<file src="assets/images/search.png"/>
+	<file src="assets/images/edit.png"/>
+	<file src="assets/images/copy.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/close_active.png"/>
+
+	<export function="wipeAccount" type="server"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

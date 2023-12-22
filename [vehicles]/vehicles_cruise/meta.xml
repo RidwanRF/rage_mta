@@ -1,0 +1,8 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/main.lua" type="client" cache="false" />
+	<script src="server/main.lua" type="server" cache="false" /> 
+	<export function="getCruiseSpeedEnabled" type="client"/>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>
+

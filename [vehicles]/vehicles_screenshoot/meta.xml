@@ -1,0 +1,14 @@
+<meta>
+
+	<script src="client/config.lua" type="client" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+	<script src="client/objects.lua" type="client" cache="false"/>
+
+	<file src="assets/shaders/tone.fx"/>
+	<file src="assets/shaders/image.fx"/>
+	<oop>true</oop>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+    <download_priority_group>-1</download_priority_group>
+</meta>

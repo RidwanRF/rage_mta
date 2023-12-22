@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="CMemory.lua" type="client" cache="false"/>
+
+	<file src="img/warning_bg.png"/>
+</meta>

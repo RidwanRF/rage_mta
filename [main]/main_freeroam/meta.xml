@@ -1,0 +1,384 @@
+<meta>
+
+	<script type="shared" src="shared/sources.lua" cache="false"/>
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+	<script type="shared" src="shared/encode.lua" cache="false"/>
+	<script type="shared" src="shared/bonus.lua" cache="false"/>
+	<script type="shared" src="shared/daily_bonuses.lua" cache="false"/>
+	<script type="shared" src="shared/daily_quests.lua" cache="false"/>
+	<script type="shared" src="shared/packs.lua" cache="false"/>
+	<script type="shared" src="shared/shop.lua" cache="false"/>
+	<script type="shared" src="shared/status.lua" cache="false"/>
+	<script type="shared" src="shared/achievments.lua" cache="false"/>
+	<script type="shared" src="shared/donate_shop.lua" cache="false"/>
+	<script type="shared" src="shared/referal.lua" cache="false"/>
+	<script type="shared" src="shared/rating.lua" cache="false"/>
+	<script type="shared" src="shared/game_bonuses.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/bonus.lua" cache="false"/>
+	<script type="server" src="server/daily_bonuses.lua" cache="false"/>
+	<script type="server" src="server/daily_quests.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+	<script type="server" src="server/packs.lua" cache="false"/>
+	<script type="server" src="server/shop.lua" cache="false"/>
+	<script type="server" src="server/achievments.lua" cache="false"/>
+	<script type="server" src="server/status.lua" cache="false"/>
+	<script type="server" src="server/report.lua" cache="false"/>
+	<script type="server" src="server/rating.lua" cache="false"/>
+	<script type="server" src="server/game_bonuses.lua" cache="false"/>
+
+	<script type="server" src="server/referal/main.lua" cache="false"/>
+	<script type="server" src="server/referal/handlers.lua" cache="false"/>
+	<script type="server" src="server/referal/generation.lua" cache="false"/>
+	<script type="server" src="server/referal/enter.lua" cache="false"/>
+	<script type="server" src="server/referal/bonuses.lua" cache="false"/>
+	<script type="server" src="server/referal/uniqueCodes.lua" cache="false"/>
+	<script type="server" src="server/referal/invite_detect.lua" cache="false"/>
+	<script type="server" src="server/referal/save.lua" cache="false"/>
+	<script type="server" src="server/referal/take.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/save_options.lua" cache="false"/>
+	<script type="client" src="client/options.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+
+	<script type="client" src="achievments/display.lua" cache="false"/>
+	<script type="server" src="achievments/fly/server.lua" cache="false"/>
+	<script type="client" src="achievments/fly/client.lua" cache="false"/>
+
+	<script type="server" src="achievments/active/server.lua" cache="false"/>
+	<script type="server" src="achievments/cars_bought/server.lua" cache="false"/>
+
+	<file src="assets/images/ac_reward/ac_gift.png"/>
+	<file src="assets/images/ac_reward/ac_head.png"/>
+	<file src="assets/images/ac_reward/ac_line.png"/>
+	<file src="assets/images/ac_reward/ac_reward.png"/>
+	<file src="assets/images/ac_reward/ac_reward1.png"/>
+	<file src="assets/images/ac_reward/ac_reward1_a.png"/>
+	<file src="assets/images/ac_reward/ac_round.png"/>
+	<file src="assets/images/ac_reward/ac_round1.png"/>
+	<file src="assets/images/ac_reward/ac_active.png"/>
+	<file src="assets/images/ac_reward/ac_light.png"/>
+
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/sbtn_sml.png"/>
+	<file src="assets/images/sbtn_sml_shadow.png"/>
+	<file src="assets/images/color_ok.png"/>
+	<file src="assets/images/_border.png"/>
+	<file src="assets/images/bg_head.png"/>
+	<file src="assets/images/avatar.png"/>
+	<file src="assets/images/hdonate.png"/>
+	<file src="assets/images/star.png"/>
+	<file src="assets/images/mbtn1.png"/>
+	<file src="assets/images/mbtn.png"/>
+	<file src="assets/images/mbtn_shadow.png"/>
+	<file src="assets/images/mbtn_empty.png"/>
+	<file src="assets/images/settings_tab.png"/>
+	<file src="assets/images/settings_tab_a.png"/>
+	<file src="assets/images/settings_slider.png"/>
+	<file src="assets/images/settings_slider_a.png"/>
+	<file src="assets/images/cd_bg.png"/>
+	<file src="assets/images/cd_fg.png"/>
+	<file src="assets/images/bonus_bg.png"/>
+	<file src="assets/images/bonus_bg_a.png"/>
+	<file src="assets/images/bonus_btn.png"/>
+	<file src="assets/images/bonus_btn_shadow.png"/>
+	<file src="assets/images/bonus_icon.png"/>
+	<file src="assets/images/quest_bg.png"/>
+	<file src="assets/images/quest_bg_a.png"/>
+	<file src="assets/images/quest_timer.png"/>
+	<file src="assets/images/pack_progress.png"/>
+	<file src="assets/images/pack_bg.png"/>
+	<file src="assets/images/pack_bg_a.png"/>
+	<file src="assets/images/pack_hit.png"/>
+	<file src="assets/images/pack_open_bg.png"/>
+	<file src="assets/images/pack_open_item_bg.png"/>
+	<file src="assets/images/pbtn.png"/>
+	<file src="assets/images/pbtn_empty.png"/>
+	<file src="assets/images/pbtn_empty_shadow.png"/>
+	<file src="assets/images/pbtn_shadow.png"/>
+	<file src="assets/images/pbtn2.png"/>
+	<file src="assets/images/pbtn2_empty.png"/>
+	<file src="assets/images/pbtn2_empty_shadow.png"/>
+	<file src="assets/images/pbtn2_shadow.png"/>
+	<file src="assets/images/packs_roulette_pointer.png"/>
+	<file src="assets/images/convert_input_a.png"/>
+	<file src="assets/images/convert_input.png"/>
+	<file src="assets/images/convert_button_a.png"/>
+	<file src="assets/images/donate.png"/>
+	<file src="assets/images/vip.png"/>
+	<file src="assets/images/vip_bg.png"/>
+	<file src="assets/images/vip_bg_a.png"/>
+	<file src="assets/images/vip_button.png"/>
+	<file src="assets/images/vip_hit.png"/>
+	<file src="assets/images/vip_item.png"/>
+	<file src="assets/images/vip_star.png"/>
+	<file src="assets/images/vip_star2.png"/>
+	<file src="assets/images/vip_point.png"/>
+	<file src="assets/images/items_head.png"/>
+	<file src="assets/images/ac_bg.png"/>
+	<file src="assets/images/ac_bg1.png"/>
+	<file src="assets/images/ac_bg1_a.png"/>
+	<file src="assets/images/ac_progress.png"/>
+	<file src="assets/images/st_bg.png"/>
+	<file src="assets/images/st_bg_a.png"/>
+	<file src="assets/images/st_icon.png"/>
+	<file src="assets/images/block.png"/>
+	<file src="assets/images/shop_item_bg.png"/>
+	<file src="assets/images/si_slider.png"/>
+	<file src="assets/images/si_timer.png"/>
+	<file src="assets/images/sibtn.png"/>
+	<file src="assets/images/sibtn_empty.png"/>
+	<file src="assets/images/sibtn_empty_shadow.png"/>
+	<file src="assets/images/sibtn_shadow.png"/>
+
+	<file src="assets/images/game_bonuses/btn.png"/>
+	<file src="assets/images/game_bonuses/info.png"/>
+	<file src="assets/images/game_bonuses/btn_empty.png"/>
+	<file src="assets/images/game_bonuses/btn_empty_shadow.png"/>
+	<file src="assets/images/game_bonuses/btn_shadow.png"/>
+	<file src="assets/images/game_bonuses/hline.png"/>
+	<file src="assets/images/game_bonuses/platinum.png"/>
+	<file src="assets/images/game_bonuses/ragebox.png"/>
+	<file src="assets/images/game_bonuses/shadow.png"/>
+	<file src="assets/images/game_bonuses/silver.png"/>
+	<file src="assets/images/game_bonuses/take_bg.png"/>
+	<file src="assets/images/game_bonuses/tbtn.png"/>
+	<file src="assets/images/game_bonuses/tbtn_empty.png"/>
+	<file src="assets/images/game_bonuses/tbtn_empty_shadow.png"/>
+	<file src="assets/images/game_bonuses/tbtn_shadow.png"/>
+	<file src="assets/images/game_bonuses/timer.png"/>
+	<file src="assets/images/game_bonuses/timer_bg.png"/>
+	<file src="assets/images/game_bonuses/vip.png"/>
+
+
+	<file src="assets/images/bonuses/money.png"/>
+	<file src="assets/images/bonuses/casino_default_ticket.png"/>
+	<file src="assets/images/bonuses/casino_vip_ticket.png"/>
+	<file src="assets/images/bonuses/vehicle.png"/>
+
+	<file src="assets/images/icons/common.png"/>
+	<file src="assets/images/icons/graphics.png"/>
+	<file src="assets/images/icons/view.png"/>
+	<file src="assets/images/icons/sounds.png"/>
+	<file src="assets/images/icons/password.png"/>
+	<file src="assets/images/icons/dof.png"/>
+	<file src="assets/images/icons/bonuses.png"/>
+	<file src="assets/images/icons/game_bonuses.png"/>
+	<file src="assets/images/icons/quests.png"/>
+	<file src="assets/images/icons/items.png"/>
+	<file src="assets/images/icons/convert.png"/>
+	<file src="assets/images/icons/vip.png"/>
+	<file src="assets/images/icons/achievments.png"/>
+	<file src="assets/images/icons/rating.png"/>
+	<file src="assets/images/icons/status.png"/>
+	<file src="assets/images/icons/sounds.png"/>
+
+
+	<file src="assets/images/shop/abu_x10.png"/>
+	<file src="assets/images/shop/prison_ticket.png"/>
+	<file src="assets/images/shop/excl_x5.png"/>
+	<file src="assets/images/shop/cyberpass.png"/>
+	<file src="assets/images/shop/germany3.png"/>
+	<file src="assets/images/shop/king_x10.png"/>
+	<file src="assets/images/shop/major_x10.png"/>
+	<file src="assets/images/shop/usaweapon.png"/>
+	<file src="assets/images/shop/cullinan_remap.png"/>
+	<file src="assets/images/shop/rx7_remap.png"/>
+
+	<file src="assets/images/shop/complect1.png"/>
+	<file src="assets/images/shop/complect2.png"/>
+	<file src="assets/images/shop/complect3.png"/>
+	<file src="assets/images/shop/complect4.png"/>
+	<file src="assets/images/shop/svj.png"/>
+	<file src="assets/images/shop/rich.png"/>
+	<file src="assets/images/shop/skin1.png"/>
+	<file src="assets/images/shop/f90_spring.png"/>
+	<file src="assets/images/shop/m8_remap.png"/>
+	<file src="assets/images/shop/m8_remap2.png"/>
+
+	<file src="assets/images/status/status_car.png"/>
+	<file src="assets/images/status/status_job.png"/>
+	<file src="assets/images/status/status_70k.png"/>
+	<file src="assets/images/status/status_100k.png"/>
+	<file src="assets/images/status/status_old.png"/>
+	<file src="assets/images/status/status_150k.png"/>
+	<file src="assets/images/status/zbt.png"/>
+	<file src="assets/images/status/screenshoot.png"/>
+	<file src="assets/images/status/cyber1.png"/>
+	<file src="assets/images/status/cyber2.png"/>
+	<file src="assets/images/status/casino.png"/>
+	<file src="assets/images/status/vk.png"/>
+	<file src="assets/images/status/killer.png"/>
+	<file src="assets/images/status/clan_win_1.png"/>
+	<file src="assets/images/status/clan_win_2.png"/>
+	<file src="assets/images/status/clan_win_3.png"/>
+	<file src="assets/images/status/knife_killer.png"/>
+	<file src="assets/images/status/clan_war.png"/>
+	<file src="assets/images/status/money_1.png"/>
+	<file src="assets/images/status/tiktok.png"/>
+	<file src="assets/images/status/diamond1.png"/>
+	<file src="assets/images/status/diamond2.png"/>
+	<file src="assets/images/status/diamond3.png"/>
+	<file src="assets/images/status/packs.png"/>
+	<file src="assets/images/status/obt.png"/>
+	<file src="assets/images/status/referal.png"/>
+	<file src="assets/images/status/ruby.png"/>
+	<file src="assets/images/status/crown.png"/>
+	<file src="assets/images/status/crown_gold.png"/>
+	<file src="assets/images/status/tester.png"/>
+	<file src="assets/images/status/youtube.png"/>
+	<file src="assets/images/status/firehand.png"/>
+	<file src="assets/images/status/razrab.png"/>
+	<file src="assets/images/status/moderator.png"/>
+	<file src="assets/images/status/admin.png"/>
+
+	<file src="assets/images/packs/1.png"/>
+	<file src="assets/images/packs/2.png"/>
+	<file src="assets/images/packs/3.png"/>
+	<file src="assets/images/packs/4.png"/>
+	<file src="assets/images/packs/5.png"/>
+	<file src="assets/images/packs/6.png"/>
+	<file src="assets/images/packs/7.png"/>
+	<file src="assets/images/packs/8.png"/>
+	<file src="assets/images/packs/9.png"/>
+	<file src="assets/images/packs/ny1.png"/>
+	<file src="assets/images/packs/ny2.png"/>
+	
+	<file src="assets/images/packs/items/discount.png"/>
+	<file src="assets/images/packs/items/vip.png"/>
+	<file src="assets/images/packs/items/bomj.png"/>
+	<file src="assets/images/packs/items/morgen.png"/>
+	<file src="assets/images/packs/items/clown.png"/>
+	
+	<file src="assets/images/packs/items/sead_kal.png"/>
+	<file src="assets/images/packs/items/tennis_girl.png"/>
+	<file src="assets/images/packs/items/reggi.png"/>
+	<file src="assets/images/packs/items/ticket.png"/>
+	
+	<file src="assets/images/packs/items/ABU_Bandit.png"/>
+	<file src="assets/images/packs/items/Audi_R8.png"/>
+	<file src="assets/images/packs/items/BMW_M3_E92.png"/>
+	<file src="assets/images/packs/items/BMW_M5_E60.png"/>
+	<file src="assets/images/packs/items/BMW_M8.png"/>
+	<file src="assets/images/packs/items/BMW_X5_E70.png"/>
+	<file src="assets/images/packs/items/Ferrari_Italia.png"/>
+	<file src="assets/images/packs/items/Lamborghini_Huracan.png"/>
+	<file src="assets/images/packs/items/Lamborghini_SVJ.png"/>
+	<file src="assets/images/packs/items/McLaren_P1.png"/>
+	<file src="assets/images/packs/items/Porsche_911.png"/>
+	<file src="assets/images/packs/items/Rolls_Royce_Cullinan.png"/>
+	<file src="assets/images/packs/items/Rolls_Royce_Phantom.png"/>
+	<file src="assets/images/packs/items/Supra_ny.png"/>
+	<file src="assets/images/packs/items/dodge_ny.png"/>
+	<file src="assets/images/packs/items/nysk1.png"/>
+	<file src="assets/images/packs/items/nysk2.png"/>
+	<file src="assets/images/packs/items/nysk3.png"/>
+
+	<file src="assets/images/packs/items/370z.png"/>
+	<file src="assets/images/packs/items/chiron.png"/>
+	<file src="assets/images/packs/items/divo.png"/>
+	<file src="assets/images/packs/items/e92.png"/>
+	<file src="assets/images/packs/items/g500.png"/>
+	<file src="assets/images/packs/items/m2.png"/>
+	<file src="assets/images/packs/items/r35.png"/>
+	<file src="assets/images/packs/items/rs6.png"/>
+	<file src="assets/images/packs/items/x222.png"/>
+
+
+
+	<file src="assets/images/ref/qiwi.png"/>
+	<file src="assets/images/ref/ref_icon.png"/>
+	<file src="assets/images/ref/ref_info_bg.png"/>
+	<file src="assets/images/ref/ref_progress.png"/>
+	<file src="assets/images/ref/ref_progress_a.png"/>
+	<file src="assets/images/ref/ref_stats_bg.png"/>
+	<file src="assets/images/ref/ref_stats_bg_a.png"/>
+	<file src="assets/images/ref/ref_take_bg.png"/>
+	<file src="assets/images/ref/ref_take_bg_a.png"/>
+	<file src="assets/images/ref/ref_take_input.png"/>
+	<file src="assets/images/ref/ref_take_input_a.png"/>
+	<file src="assets/images/ref/ref_take_title_bg.png"/>
+	<file src="assets/images/ref/ref_take_type_bg.png"/>
+	<file src="assets/images/ref/ref_take_type_bg_a.png"/>
+	<file src="assets/images/ref/sber.png"/>
+	<file src="assets/images/ref/ref_round.png"/>
+	<file src="assets/images/ref/rbtn.png"/>
+	<file src="assets/images/ref/rbtn_empty.png"/>
+	<file src="assets/images/ref/rbtn_empty_shadow.png"/>
+	<file src="assets/images/ref/rbtn_shadow.png"/>
+	<file src="assets/images/ref/rinput.png"/>
+	<file src="assets/images/ref/rinput_a.png"/>
+	<file src="assets/images/ref/close.png"/>
+	<file src="assets/images/ref/close_icon.png"/>
+	<file src="assets/images/ref/close_active.png"/>
+	<file src="assets/images/ref/rcoin.png"/>
+
+	<file src="assets/images/report/btn.png"/>
+	<file src="assets/images/report/btn_empty.png"/>
+	<file src="assets/images/report/btn_shadow.png"/>
+	<file src="assets/images/report/btn_empty_shadow.png"/>
+	<file src="assets/images/report/nbtn.png"/>
+	<file src="assets/images/report/nbtn_empty.png"/>
+	<file src="assets/images/report/nbtn_shadow.png"/>
+	<file src="assets/images/report/nbtn_empty_shadow.png"/>
+	<file src="assets/images/report/btn_shadow.png"/>
+	<file src="assets/images/report/line.png"/>
+	<file src="assets/images/report/menu.png"/>
+	<file src="assets/images/report/pbg.png"/>
+	<file src="assets/images/report/s_bad.png"/>
+	<file src="assets/images/report/s_good.png"/>
+	<file src="assets/images/report/add.png"/>
+	<file src="assets/images/report/text.png"/>
+	<file src="assets/images/report/stats.png"/>
+	<file src="assets/images/report/tbtn.png"/>
+	<file src="assets/images/report/tbtn_shadow.png"/>
+	<file src="assets/images/report/input.png"/>
+	<file src="assets/images/report/round.png"/>
+	<file src="assets/images/report/arrow.png"/>
+	<file src="assets/images/report/mark_bg.png"/>
+
+	<file src="assets/images/rating/1.png"/>
+	<file src="assets/images/rating/2.png"/>
+	<file src="assets/images/rating/3.png"/>
+	<file src="assets/images/rating/rating_bg.png"/>
+	<file src="assets/images/rating/rating_icon.png"/>
+	<file src="assets/images/rating/rating_info_bg.png"/>
+	<file src="assets/images/rating/rating_info_bg_shadow.png"/>
+
+	<file src="assets/images/rating/icons/jobs.png"/>
+	<file src="assets/images/rating/icons/money.png"/>
+	<file src="assets/images/rating/icons/drift.png"/>
+	<file src="assets/images/rating/icons/level.png"/>
+	<file src="assets/images/rating/icons/car.png"/>
+	<file src="assets/images/rating/icons/kills.png"/>
+
+	<export function="updatePlayerAchievments" type="server"/>
+	<export function="handleReferalDonate" type="server"/>
+
+	<export function="toggleAllSettings" type="client"/>
+	<export function="highlightMainTab" type="client"/>
+	<export function="hasAchievmentDisplay" type="client"/>
+	
+	<export function="givePlayerStatus" type="server"/>
+	<export function="givePlayerPack" type="server"/>
+	<export function="giveAccountPack" type="server"/>
+	<export function="enterReferalCode" type="server"/>
+	<export function="getCodeData" type="server"/>
+	<export function="giveStatus" type="server"/>
+	<export function="addBoughtCar" type="server"/>
+	<export function="getPlayerStatus" type="shared"/>
+	<export function="getPlayerPromo" type="shared"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

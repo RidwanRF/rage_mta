@@ -1,0 +1,210 @@
+<meta>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+	<script type="shared" src="shared/war_maps.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+	<script type="server" src="server/sync.lua" cache="false"/>
+	<script type="server" src="server/members.lua" cache="false"/>
+	<script type="server" src="server/history.lua" cache="false"/>
+	<script type="server" src="server/inventory.lua" cache="false"/>
+	<script type="server" src="server/ranks.lua" cache="false"/>
+	<script type="server" src="server/rules.lua" cache="false"/>
+	<script type="server" src="server/chat.lua" cache="false"/>
+	<script type="server" src="server/top.lua" cache="false"/>
+	<script type="server" src="server/money.lua" cache="false"/>
+	<script type="server" src="server/invite.lua" cache="false"/>
+	<script type="server" src="server/wipe.lua" cache="false"/>
+	<script type="server" src="server/admin.lua" cache="false"/>
+	<script type="server" src="server/mansion.lua" cache="false"/>
+	<script type="server" src="server/wars.lua" cache="false"/>
+	<script type="server" src="server/limits.lua" cache="false"/>
+	<script type="server" src="server/stats.lua" cache="false"/>
+
+	<script type="server" src="server/war_match/matches/Match.lua" cache="false"/>
+	<script type="server" src="server/war_match/matches/CaptureMatch.lua" cache="false"/>
+	<script type="server" src="server/war_match/matches/VehiclesMatch.lua" cache="false"/>
+
+	<script type="server" src="server/war_match/main.lua" cache="false"/>
+	<script type="server" src="server/war_match/handlers.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/mansion.lua" cache="false"/>
+	<script type="client" src="client/mansion_blips.lua" cache="false"/>
+	<script type="client" src="client/sync.lua" cache="false"/>
+	<script type="client" src="client/war_prepare.lua" cache="false"/>
+	<script type="client" src="client/inventory.lua" cache="false"/>
+
+	<script type="client" src="client/war_match/sync.lua" cache="false"/>
+	<script type="client" src="client/war_match/gui.lua" cache="false"/>
+	<script type="client" src="client/war_match/colshape.lua" cache="false"/>
+	<script type="client" src="client/war_match/damage.lua" cache="false"/>
+	<script type="client" src="client/war_match/team_mark.lua" cache="false"/>
+	<script type="client" src="client/war_match/client_kills.lua" cache="false"/>
+
+	<file src="assets/shaders/team_mark.fx"/>
+
+	<file src="assets/images/wbg.png"/>
+	<file src="assets/images/wmember.png"/>
+	<file src="assets/images/wbg_a.png"/>
+	<file src="assets/images/wbattle.png"/>
+	<file src="assets/images/wbattle_icon.png"/>
+	<file src="assets/images/donate.png"/>
+	<file src="assets/images/padlock.png"/>
+	<file src="assets/images/mbg.png"/>
+	<file src="assets/images/miline.png"/>
+	<file src="assets/images/mi_spray.png"/>
+	<file src="assets/images/mi_rating.png"/>
+	<file src="assets/images/mi_money.png"/>
+	<file src="assets/images/money.png"/>
+	<file src="assets/images/mi_weapon.png"/>
+	<file src="assets/images/mi_ammo.png"/>
+	<file src="assets/images/mi_round.png"/>
+	<file src="assets/images/mi_eround.png"/>
+	<file src="assets/images/mi_user.png"/>
+	<file src="assets/images/mi_area.png"/>
+	<file src="assets/images/mi_arealine.png"/>
+	<file src="assets/images/mi_ushadow.png"/>
+	<file src="assets/images/mi_btn_shadow.png"/>
+	<file src="assets/images/mi_btn_empty.png"/>
+	<file src="assets/images/cmp_icon.png"/>
+	<file src="assets/images/wpbg.png"/>
+	<file src="assets/images/arrown.png"/>
+	
+	<file src="assets/images/cr_btn.png"/>
+	<file src="assets/images/cr_btn_shadow.png"/>
+	<file src="assets/images/cr_btn_empty_shadow.png"/>
+	<file src="assets/images/cr_btn_empty.png"/>
+
+	<file src="assets/images/cm_btn.png"/>
+	<file src="assets/images/cm_btn_empty.png"/>
+
+	<file src="assets/images/ch_btn.png"/>
+	<file src="assets/images/ch_btn_icon.png"/>
+	<file src="assets/images/ch_input.png"/>
+	<file src="assets/images/n_bg.png"/>
+	<file src="assets/images/t_bg.png"/>
+
+	<file src="assets/images/r_bg1.png"/>
+	<file src="assets/images/r_bg2.png"/>
+	<file src="assets/images/r_bg2_a.png"/>
+	<file src="assets/images/r_bg2_b.png"/>
+	<file src="assets/images/r_edit.png"/>
+	<file src="assets/images/r_ok.png"/>
+	<file src="assets/images/r_input.png"/>
+	<file src="assets/images/r_delete.png"/>
+
+	<file src="assets/images/cb_bg.png"/>
+	<file src="assets/images/cb_fg.png"/>
+	<file src="assets/images/m_bg.png"/>
+
+	<file src="assets/images/cb_btn_empty_shadow.png"/>
+	<file src="assets/images/cn_btn.png"/>
+	<file src="assets/images/cn_btn_empty.png"/>
+	<file src="assets/images/cn_btn_shadow.png"/>
+	<file src="assets/images/cn_line.png"/>
+	<file src="assets/images/cn_input.png"/>
+	<file src="assets/images/a_bg.png"/>
+	<file src="assets/images/a_bg_a.png"/>
+	<file src="assets/images/a_point.png"/>
+	<file src="assets/images/a_point_delete.png"/>
+	
+	<file src="assets/images/creation/bg.png"/>
+	<file src="assets/images/creation/bg_shadow.png"/>
+	<file src="assets/images/creation/cblock.png"/>
+	<file src="assets/images/creation/cblock_shadow.png"/>
+	<file src="assets/images/creation/cbtn.png"/>
+	<file src="assets/images/creation/cbtn_shadow.png"/>
+	<file src="assets/images/creation/close.png"/>
+	<file src="assets/images/creation/close_active.png"/>
+	<file src="assets/images/creation/close_icon.png"/>
+	<file src="assets/images/creation/icon.png"/>
+	<file src="assets/images/creation/icon_bg.png"/>
+	<file src="assets/images/creation/input.png"/>
+	<file src="assets/images/creation/item_bg.png"/>
+	<file src="assets/images/creation/item_bg_a.png"/>
+	<file src="assets/images/creation/palette.png"/>
+	<file src="assets/images/creation/palette_target.png"/>
+	<file src="assets/images/creation/pmask.png"/>
+	<file src="assets/images/creation/palpha.png"/>
+	<file src="assets/images/creation/alpha.png"/>
+	<file src="assets/images/creation/tline.png"/>
+
+	<file src="assets/images/icons/1.png"/>
+	<file src="assets/images/icons/2.png"/>
+	<file src="assets/images/icons/3.png"/>
+	<file src="assets/images/icons/4.png"/>
+	<file src="assets/images/icons/5.png"/>
+	<file src="assets/images/icons/6.png"/>
+	<file src="assets/images/icons/7.png"/>
+	<file src="assets/images/icons/8.png"/>
+	<file src="assets/images/icons/9.png"/>
+	<file src="assets/images/icons/10.png"/>
+	<file src="assets/images/icons/11.png"/>
+	<file src="assets/images/icons/12.png"/>
+	<file src="assets/images/icons/13.png"/>
+	<file src="assets/images/icons/14.png"/>
+	<file src="assets/images/icons/15.png"/>
+	<file src="assets/images/icons/16.png"/>
+	<file src="assets/images/icons/17.png"/>
+	<file src="assets/images/icons/18.png"/>
+	<file src="assets/images/icons/19.png"/>
+	<file src="assets/images/icons/20.png"/>
+	<file src="assets/images/icons/21.png"/>
+	<file src="assets/images/icons/22.png"/>
+	<file src="assets/images/icons/23.png"/>
+	<file src="assets/images/icons/24.png"/>
+	<file src="assets/images/icons/25.png"/>
+	<file src="assets/images/icons/26.png"/>
+	<file src="assets/images/icons/27.png"/>
+	<file src="assets/images/icons/28.png"/>
+	<file src="assets/images/icons/29.png"/>
+	<file src="assets/images/icons/30.png"/>
+
+	<file src="assets/images/mansion/close.png"/>
+	<file src="assets/images/mansion/close_active.png"/>
+	<file src="assets/images/mansion/close_icon.png"/>
+	<file src="assets/images/mansion/mbg.png"/>
+	<file src="assets/images/mansion/mbg_shadow.png"/>
+	<file src="assets/images/mansion/mbtn.png"/>
+	<file src="assets/images/mansion/mbtn_empty.png"/>
+	<file src="assets/images/mansion/mbtn_empty_shadow.png"/>
+	<file src="assets/images/mansion/mbtn_shadow.png"/>
+	<file src="assets/images/mansion/micon.png"/>
+	<file src="assets/images/mansion/micon_bg.png"/>
+	<file src="assets/images/mansion/mline.png"/>
+	<file src="assets/images/mansion/money.png"/>
+
+	<export function="startMarkerExchange" type="client"/>
+	
+	<export function="getConfigSetting" type="shared"/>
+	<export function="getClanAreas" type="shared"/>
+	<export function="hasPlayerRight" type="shared"/>
+	<export function="formatPlayerName" type="shared"/>
+	<export function="findTeamById" type="shared"/>
+	<export function="getClanMansion" type="shared"/>
+	<export function="getTeamWars" type="shared"/>
+
+	<export function="setTeamData" type="server"/>
+	<export function="wipeAccount" type="server"/>
+	<export function="createWarTimer" type="server"/>
+	<export function="removeWarTimer" type="server"/>
+	<export function="appendTeamHistory" type="server"/>
+	
+	<export function="getTeamLimit" type="server"/>
+	<export function="increaseTeamLimit" type="server"/>
+	
+	<export function="getTeamStats" type="server"/>
+	<export function="increaseTeamStats" type="server"/>
+
+	<download_priority_group>10</download_priority_group>
+
+</meta>

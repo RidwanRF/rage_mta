@@ -1,0 +1,39 @@
+<meta>
+
+	<script src="shared/config.lua" type="shared" cache="false"/>
+
+	<script src="server/sources.lua" type="server" cache="false"/>
+	<script src="server/main.lua" type="server" cache="false"/>
+	<script src="server/work.lua" type="server" cache="false"/>
+
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+	<script src="client/markers.lua" type="client" cache="false"/>
+	<script src="client/gui.lua" type="client" cache="false"/>
+	<script src="client/work_gui.lua" type="client" cache="false"/>
+
+	<export function="setConfigSetting" type="server"/>
+	<export function="getConfigSetting" type="server"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/bg1.png"/>
+	<file src="assets/images/btn.png"/>
+	<file src="assets/images/btn_empty.png"/>
+	<file src="assets/images/btn_empty_shadow.png"/>
+	<file src="assets/images/btn_shadow.png"/>
+	<file src="assets/images/bus.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/icon_bg.png"/>
+	<file src="assets/images/rbg.png"/>
+	<file src="assets/images/rbg_shadow.png"/>
+	<file src="assets/images/ritem.png"/>
+	<file src="assets/images/ritem_a.png"/>
+	<file src="assets/images/rround.png"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

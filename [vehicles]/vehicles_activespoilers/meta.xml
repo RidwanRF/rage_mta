@@ -1,0 +1,6 @@
+<meta>
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/animations.lua" type="client" cache="false"/>
+	<script src="client/client.lua" type="client" cache="false"/>
+	<script src="client/spoilersFunctions.lua" type="client" cache="false"/>
+</meta>

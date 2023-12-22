@@ -1,0 +1,9 @@
+<meta>
+	<script src="client/client.lua" type="client" cache="false"/>
+	<file src="assets/shaders/mask.fx"/>
+	<file src="assets/shaders/line.fx"/>
+	<file src="assets/shaders/line_mirror.fx"/>
+	<export function="getShader" type="client"/>
+	<download_priority_group>10</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

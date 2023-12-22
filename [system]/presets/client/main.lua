@@ -1,0 +1,2 @@
+
+setPedCanBeKnockedOffBike(localPlayer, false)

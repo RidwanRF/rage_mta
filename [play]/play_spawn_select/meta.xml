@@ -1,0 +1,31 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/notify.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/select_last_exit.png"/>
+	<file src="assets/images/select_home.png"/>
+	<file src="assets/images/select_mansion.png"/>
+	<file src="assets/images/select_spawn.png"/>
+	<file src="assets/images/btn.png"/>
+	<file src="assets/images/btn_empty.png"/>
+	<file src="assets/images/btn_empty_shadow.png"/>
+	<file src="assets/images/btn_shadow.png"/>
+	<file src="assets/images/imgbg.png"/>
+
+	<export function="openPlayerWindow" type="server"/>
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

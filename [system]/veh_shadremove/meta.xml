@@ -1,0 +1,6 @@
+<meta>
+	<script src="client/client.lua" type="client" cache="false" />
+	<file src="assets/shaders/shader.fx" type="client" cache="false"/>
+	
+	<min_mta_version>1.5.5</min_mta_version>
+</meta>

@@ -1,0 +1,32 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/tolls.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/tolls.lua" cache="false"/>
+
+	<file src="assets/images/main.png"/>
+	<file src="assets/images/button.png"/>
+	<file src="assets/images/time_bg.png"/>
+	<file src="assets/images/rub.png"/>
+	<file src="assets/images/time_1.png"/>
+	<file src="assets/images/time_2.png"/>
+	<file src="assets/images/input.png"/>
+	<file src="assets/images/tickets.png"/>
+
+    <map src="mapping/mapping_kpp.map" dimension="0"></map>
+    <script src="mapping/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapping/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<oop>true</oop>
+	<download_priority_group>-1</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

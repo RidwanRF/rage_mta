@@ -1,0 +1,11 @@
+<meta>
+	<oop>true</oop>
+	<script src="Shared.lua" type="shared" cache="false" />
+
+	<script src="SAdminPanelFreecam.lua" />
+	<script src="SAdminPanel.lua" />
+	
+	
+	<script src="CUIAdminPanelFreecam.lua" type="client" cache="false" />
+	<script src="CUIAdminPanel.lua" type="client" cache="false" />
+</meta>

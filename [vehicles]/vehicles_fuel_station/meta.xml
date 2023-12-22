@@ -1,0 +1,35 @@
+<meta>
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/button.png"/>
+	<file src="assets/images/button_empty.png"/>
+	<file src="assets/images/button_shadow.png"/>
+	<file src="assets/images/electro.png"/>
+	<file src="assets/images/fuel_art.png"/>
+	<file src="assets/images/fuel_type.png"/>
+	<file src="assets/images/fuel_type_a.png"/>
+	<file src="assets/images/fuel_type_shadow.png"/>
+	<file src="assets/images/hline.png"/>
+	<file src="assets/images/money.png"/>
+	<file src="assets/images/slider.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/cbg.png"/>
+
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

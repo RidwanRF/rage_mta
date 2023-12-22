@@ -1,0 +1,19 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="client/binds.lua" type="client" cache="false" />
+	<script src="client/main.lua" type="client" cache="false" />
+	<script src="client/lights.lua" type="client" cache="false" />
+	<script src="client/strobo.lua" type="client" cache="false" />
+
+	<script src="server/binds.lua" type="server" cache="false" /> 
+	<script src="server/main.lua" type="server" cache="false" /> 
+	<script src="server/lights.lua" type="server" cache="false" /> 
+	<script src="server/handbrake.lua" type="server" cache="false" /> 
+
+	<export function="updateState" type="client"/>
+	<export function="setHeadlightsState" type="server"/>
+	<export function="setVehicleControlState" type="server"/>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>
+

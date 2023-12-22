@@ -1,0 +1,3 @@
+scx, scy = guiGetScreenSize( )
+ui = { }
+

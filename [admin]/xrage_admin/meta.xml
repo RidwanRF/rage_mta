@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<download_priority_group>10000000</download_priority_group>
+
+	<script src="Shared.lua" type="shared" cache = "false" />
+	<script src="CUtils.lua" type="client" cache = "false" />
+	<script src="Client.lua" type="client" cache = "false" />
+	<script src="Server.lua" type="Server" />
+</meta>

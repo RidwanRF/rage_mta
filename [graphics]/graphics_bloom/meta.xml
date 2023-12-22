@@ -1,0 +1,9 @@
+<meta>
+	<info description="Shader - Bloom" version="0.0.4" type="script" />
+	<script src="c_bloom.lua" type="client" cache="false" />
+	<file src="addBlend.fx" type="client" cache="false" />
+	<file src="blurH.fx" type="client" cache="false" />
+	<file src="blurV.fx" type="client" cache="false" />
+	<file src="brightPass.fx" type="client" cache="false" />
+	<file src="mta-helper.fx" type="client" cache="false" />
+</meta>

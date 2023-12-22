@@ -1,0 +1,8 @@
+<meta>
+	<info description="Shader - Tex names" version="0.0.2" type="script" />
+	<script src="c_key_auto_repeat.lua" type="client" />
+	<script src="c_tex_names.lua" type="client" />
+	<file src="tex_names.fx" type="client" />
+	<file src="a.png" type="client" />
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

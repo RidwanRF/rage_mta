@@ -1,0 +1,1 @@
+engineSetModelLODDistance( 4247, 1000 )

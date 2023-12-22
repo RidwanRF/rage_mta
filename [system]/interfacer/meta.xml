@@ -1,0 +1,32 @@
+<meta>
+	<oop>true</oop>
+	<download_priority_group>10000000</download_priority_group>
+
+	<script src="Extend/Interfacer.lua" type="shared" />
+	<script src="shared.lua" type="shared" />
+
+	<export function="extend" type="server" />
+	<export function="extend" type="client" />
+
+	<!-- Важные -->
+	<script src="Extend/ShUtils.lua" type="shared" />
+
+	<script src="Extend/ib.lua" type="client" />
+	<script src="Extend/ib/dropdown.lua" type="client" />
+	<script src="Extend/ib/navbar.lua" type="client" />
+	<script src="Extend/ib/tabPanel.lua" type="client" />
+
+
+	<!-- DGS type -->
+	<script src="Extend/DGS.lua" type="client"/>
+
+	<!-- Общие клиентские и серверные -->
+	<script src="Extend/ShAsync.lua" type="shared" />
+	<script src="Extend/ShTimelib.lua" type="shared" />
+	<script src="Extend/ShFactionsConfig.lua" type="shared" />
+
+	<!-- Client -->
+	<script src="Extend/ShPlayer.lua" type="shared" />
+	<script src="Extend/ShVehicle.lua" type="shared" />
+	<script src="Extend/SVehicle.lua" type="server" />
+</meta>

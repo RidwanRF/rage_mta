@@ -1,0 +1,15 @@
+<meta>
+	<script src="shared/shared.lua" type="shared" cache="false"/>
+	<script src="shared/config.lua" type="shared" cache="false"/>
+	
+	<script src="server/server.lua" type="server" cache="false"/>
+
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+
+	<file src="assets/sounds/sound.mp3"/>
+
+	<oop>true</oop>
+
+    <min_mta_version>1.5.5</min_mta_version>
+</meta>

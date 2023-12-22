@@ -1,0 +1,17 @@
+<meta>
+
+	<script src="shared/shared.lua" type="shared" cache="false"/>
+	<script src="server/main.lua" type="server" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+
+	<file src="assets/objects/1.dffc"/>
+	<file src="assets/objects/1.col"/>
+	<file src="assets/objects/2.dffc"/>
+	<file src="assets/objects/3.col"/>
+	<file src="assets/objects/3.dffc"/>
+	<file src="assets/objects/3.col"/>
+	<file src="assets/objects/main.txd"/>
+
+	<oop>true</oop>
+
+</meta>

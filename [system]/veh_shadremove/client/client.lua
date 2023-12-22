@@ -1,0 +1,1 @@
+local shader = dxCreateShader('assets/shaders/shader.fx', 0, 0, false)engineApplyShaderToWorldTexture(shader, 'shad_car')

@@ -1,0 +1,14 @@
+<meta>
+
+	<script src="shared/shared.lua" type="shared" cache="false"/>
+	<script src="shared/config.lua" type="shared" cache="false"/>
+	
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+
+	<file src="assets/images/neon.png"/>
+
+	<oop>true</oop>
+    <min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

@@ -1,0 +1,21 @@
+<meta>
+<script src="webhookS.lua" cache="false"/>
+<script src="webhookSh.lua" type="shared" cache="false"/>
+
+<export function="sendDiscordFaction" type="shared" />
+<export function="sendDiscordEvent" type="shared" />
+<export function="sendDiscordPlayers" type="shared" />
+<export function="sendDiscordTransfers" type="shared" />
+<export function="sendDiscordJobs" type="shared" />
+<export function="sendDiscordBusinesses" type="shared" />
+<export function="sendDiscordCommands" type="shared" />
+<export function="sendDiscordJail" type="shared" />
+<export function="sendDiscordClothes" type="shared" />
+<export function="sendDiscordVehicles" type="shared" />
+<export function="sendDiscordReports" type="shared" />
+<export function="sendDiscordFactions" type="shared" />
+<export function="sendDiscordClans" type="shared" />
+<export function="SendMessage" type="shared"/>
+
+<min_mta_version client="1.5.4-9.11413" server="1.5.4-9.11413" />
+</meta>

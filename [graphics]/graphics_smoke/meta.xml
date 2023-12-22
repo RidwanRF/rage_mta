@@ -1,0 +1,21 @@
+<meta>
+	<oop>true</oop>
+	
+	<script type="shared" src="shared/yaci.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/exports.lua" cache="false"/>
+	<script type="client" src="client/ParticlesManager.lua" cache="false"/>
+	<script type="client" src="client/Particle.lua" cache="false"/>
+	<script type="client" src="client/ParticlesEmitter.lua" cache="false"/>
+	<script type="client" src="client/tyres_smoke.lua" cache="false"/>
+
+	<export type="client" function="createEmitter"/>
+	<export type="client" function="destroyEmitter"/>
+	<export type="client" function="setEmitterPosition"/>
+	<export type="client" function="setEmitterOption"/>
+
+	<file src="assets/smoke1.png"/>
+	<file src="assets/smoke2.png"/>
+	<file src="assets/smoke3.png"/>
+</meta>

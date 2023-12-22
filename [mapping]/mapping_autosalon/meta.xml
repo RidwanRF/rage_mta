@@ -1,0 +1,15 @@
+<meta>
+
+	<script src="shared.lua" type="shared" cache="false"/>
+	<script src="server.lua" type="server" cache="false"/>
+	<script src="client.lua" type="client" cache="false"/>
+
+
+	<file src="models/salon.col"/>
+	<file src="models/salon.dffc"/>
+	<file src="models/salon.txd"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

@@ -1,0 +1,50 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/skins.lua" cache="false"/>
+	<script type="server" src="server/quit.lua" cache="false"/>
+	<script type="server" src="server/wardrobeLots.lua" cache="false"/>
+	<script type="server" src="server/wardrobe.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+	<script type="client" src="client/preview.lua" cache="false"/>
+	<script type="client" src="client/shop.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/camera.lua" cache="false"/>
+
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/mbg.png"/>
+	<file src="assets/images/mbg_shadow.png"/>
+	<file src="assets/images/pbg.png"/>
+	<file src="assets/images/pbg_shadow.png"/>
+	<file src="assets/images/pbtn.png"/>
+	<file src="assets/images/pbtn_shadow.png"/>
+	<file src="assets/images/pbtn_empty.png"/>
+	<file src="assets/images/pbtn_empty_shadow.png"/>
+	<file src="assets/images/ebtn.png"/>
+	<file src="assets/images/ebtn_shadow.png"/>
+	<file src="assets/images/ebtn_empty.png"/>
+	<file src="assets/images/ebtn_empty_shadow.png"/>
+	<file src="assets/images/clothes.png"/>
+	<file src="assets/images/tabs_line.png"/>
+	<file src="assets/images/skinsel.png"/>
+	<file src="assets/images/rarity_bg.png"/>
+	<file src="assets/images/block.png"/>
+	<file src="assets/images/donate.png"/>
+	<file src="assets/images/case.png"/>
+
+	<export function="updatePlayerWardrobeLots" type="server"/>
+	<export function="addWardrobeClothes" type="server"/>
+	
+	<export function="getClothesConfig" type="shared"/>
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

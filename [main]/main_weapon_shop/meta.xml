@@ -1,0 +1,27 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+
+
+	<file src="assets/images/item1.png"/>
+	<file src="assets/images/item1_shadow.png"/>
+	<file src="assets/images/item2.png"/>
+	<file src="assets/images/item2_shadow.png"/>
+	<file src="assets/images/mark.png"/>
+	<file src="assets/images/mark_a.png"/>
+	<file src="assets/images/money.png"/>
+	<file src="assets/images/back.png"/>
+
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

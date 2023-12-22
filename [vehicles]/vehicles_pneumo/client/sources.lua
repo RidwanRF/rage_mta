@@ -1,0 +1,5 @@
+pcall( loadstring( exports['core']:include('common') ) )
+pcall( loadstring( exports['core']:include('gui.module.utils') ) )
+pcall( loadstring( exports['core']:include('gui.graphics') ) )
+pcall( loadstring( exports['core']:include('gui.fonts') ) )
+pcall( loadstring( exports['core']:include('animations') ) )

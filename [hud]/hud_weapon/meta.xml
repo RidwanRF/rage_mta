@@ -1,0 +1,13 @@
+<meta>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/crosshair.lua" cache="false"/>
+
+	<file src="assets/images/ammo.png"/>
+	
+	<oop>true</oop>
+
+	<download_priority_group>10</download_priority_group>
+</meta>

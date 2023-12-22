@@ -1,0 +1,41 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gps.lua" cache="false"/>
+	<script type="client" src="client/dialogs.lua" cache="false"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/hline.png"/>
+	<file src="assets/images/list_button.png"/>
+	<file src="assets/images/list_button_shadow.png"/>
+	<file src="assets/images/gps_bg.png"/>
+
+	<file src="assets/images/lu/next.png"/>
+	<file src="assets/images/lu/next_a.png"/>
+	<file src="assets/images/lu/line.png"/>
+	<file src="assets/images/lu/close.png"/>
+
+	<file src="assets/images/lu/banners/1.png"/>
+
+	<export function="getConfigSetting" type="shared"/>
+	<export function="createGPSPoint" type="client"/>
+	<export function="removeGPSPoint" type="client"/>
+	<export function="getGPSPoint" type="client"/>
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+	
+</meta>

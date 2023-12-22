@@ -1,0 +1,14 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="ShFactions.lua" type="shared" cache="false" />
+
+	<script src="CFactionsUtils.lua" type="client" cache="false" />
+	<script src="CFactions.lua" type="client" cache="false" />
+	<script src="CUIFactions_Main.lua" type="client" cache="false" />
+
+	<script src="SFactions.lua" type="server" cache="false" />
+
+	<file src="img/background.png"/>
+
+</meta>

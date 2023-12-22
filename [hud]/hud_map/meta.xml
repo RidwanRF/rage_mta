@@ -1,0 +1,29 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/map_render.lua" cache="false"/>
+	<script type="client" src="client/anti_stick.lua" cache="false"/>
+
+	<file src="assets/images/hints.png"/>
+	<file src="assets/images/hints_shadow.png"/>
+	<file src="assets/images/settings.png"/>
+	<file src="assets/images/settings_shadow.png"/>
+	<file src="assets/images/blips.png"/>
+	<file src="assets/images/blips_shadow.png"/>
+	<file src="assets/images/hint_tab.png"/>
+	<file src="assets/images/hint_scroll.png"/>
+	<file src="assets/images/hint_move.png"/>
+	<file src="assets/images/hint_shift.png"/>
+
+	<export function="inputCoords" type="client"/>
+	<export function="showCoords" type="client"/>
+
+	<download_priority_group>1</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,19 @@
+<meta>
+
+	<oop>true</oop>
+
+	<script src="server/sources.lua" type="server" cache="false"/>
+	<script src="server/save.lua" type="server" cache="false"/>
+	<script src="server/main.lua" type="server" cache="false"/>
+	
+	<script src="client/sync.lua" type="client" cache="false"/>
+
+	<export function="addParameter" type="server"/>
+	<export function="removeParameter" type="server"/>
+	<export function="getParameters" type="server"/>
+
+	<!-- exports.save:addParameter('mute.time') -->
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+	<download_priority_group>100</download_priority_group>
+</meta>

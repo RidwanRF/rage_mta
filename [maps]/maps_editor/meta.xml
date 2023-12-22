@@ -1,0 +1,43 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/gta_models.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/autosave.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/editor.lua" cache="false"/>
+	<script type="client" src="client/hotkeys.lua" cache="false"/>
+	<script type="client" src="client/cursor.lua" cache="false"/>
+	<script type="client" src="client/save.lua" cache="false"/>
+	<script type="client" src="client/axis_offset.lua" cache="false"/>
+	<!-- <script type="client" src="client/curve.lua" cache="false"/> -->
+	<!-- <script type="client" src="client/undo_redo.lua" cache="false"/> -->
+	<script type="client" src="client/objects_manager.lua" cache="false"/>
+	<!-- <script type="client" src="client/remove_world.lua" cache="false"/> -->
+	<script type="client" src="client/world_info.lua" cache="false"/>
+	<script type="client" src="client/convert_to_pos.lua" cache="false"/>
+
+	<file src="assets/images/eye.png"/>
+	<file src="assets/images/eye_cross.png"/>
+	<file src="assets/images/copy.png"/>
+	<file src="assets/images/camera.png"/>
+	<file src="assets/images/arrow.png"/>
+	<file src="assets/images/icons/camhack.png"/>
+	<file src="assets/images/icons/chtp.png"/>
+	<file src="assets/images/icons/newmap.png"/>
+	<file src="assets/images/icons/curve.png"/>
+
+	<file src="models/info.txt"/>
+	<file src="saves/info.txt"/>
+	
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+	<oop>true</oop>
+
+	<download_priority_group>-1</download_priority_group>
+</meta>

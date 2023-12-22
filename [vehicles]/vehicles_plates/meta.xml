@@ -1,0 +1,43 @@
+﻿<meta>	
+	<oop>true</oop>
+	<min_mta_version client="1.5.2-9.07903" server="1.3.4-0.00000" />
+	
+	<script src="shared/shared.lua" type="shared" cache="false" />
+	
+	<script src="client/sources.lua" type="client" cache="false" />
+	<script src="client/main.lua" type="client" cache="false" />
+	<script src="client/generatePlate.lua" type="client" cache="false" />
+	<script src="client/curtain.lua" type="client" cache="false" />
+	
+	<file src="assets/images/plate_a.png" />
+	<file src="assets/images/plate_b.png" />
+	<file src="assets/images/plate_c.png" />
+	<file src="assets/images/plate_d.png" />
+	<file src="assets/images/plate_e.png" />
+	<file src="assets/images/plate_f.png" />
+	<file src="assets/images/plate_g.png" />
+	<file src="assets/images/plate_h.png" />
+	<file src="assets/images/plate_n.png" />
+	<file src="assets/images/plate_i.png" />
+	<file src="assets/images/plate_j.png" />
+	<file src="assets/images/plate_k.png" />
+	<file src="assets/images/plate_m.png" />
+	<file src="assets/images/plate_o.png" />
+	
+	<file src="assets/shaders/number.fx" />
+	<file src="assets/shaders/texreplace.fx" />
+
+	<file src="assets/fonts/RoadNumbers2.0.ttf" />
+	<file src="assets/fonts/arial.ttf" />
+	<file src="assets/fonts/gost_bu.ttf" />
+	<file src="assets/fonts/nominal.ttf" />
+	<file src="assets/fonts/kz.ttf" />
+
+	<export function="toggleCurtain" type="client"/>
+	<export function="applyPlateToVehicle" type="client"/>
+	
+	<export function="generatePlate" type="client" />
+	<export function="drawPlate" type="client" />
+	<download_priority_group>-10</download_priority_group>
+	
+</meta>

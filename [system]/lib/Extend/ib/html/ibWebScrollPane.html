@@ -1,0 +1,86 @@
+/* Сорри, но я уже ахуел от этого языка */
+
+<html>
+    <head>
+        <title>Hello World</title>
+        <style>
+            body {
+                background-color: aquamarine;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                background-color: bisque;
+            }
+            .left {
+                width: 300px;
+                background-color: lightblue;
+                overflow: auto;
+                scroll-behavior: smooth;
+
+            }
+            .right {
+                flex:1;
+                background-color: lightcoral;
+                overflow: auto;
+                scroll-behavior: smooth;
+            }
+            .sidebar-item {
+                display: block;
+                height: 100px;
+                background-color: lightseagreen;
+                margin: 5px;
+            }
+            .header {
+                display: block;
+                height: 100px;
+                flex:none;
+                background-color: aqua;
+            }
+            .content {
+                flex:1;
+                background-color: brown;
+                display: flex;
+                overflow: auto;
+            }
+        </style>
+        <style>
+            /* width */
+            .myscroll::-webkit-scrollbar {
+            width: 10px;
+            
+            }
+
+            /* Track */
+            .myscroll::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+            }
+            
+            /* Handle */
+            .myscroll::-webkit-scrollbar-thumb {
+            background: #888; 
+            }
+
+            /* Handle on hover */
+            .myscroll::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+            }
+
+            .myscroll {
+                scrollbar-color: #9aa0a6 transparent;
+                scrollbar-width: thin;
+            }
+        </style>
+    </head>
+</html>
+
+<script>
+    function SEND_ibOnWebScrollPaneAddBlock() {
+        var block = document.getElementById("ibWebScrollPane").value;
+        console.log("text: " + text.toString());
+        mta.triggerEvent("ibOnWebScrollPaneAddBlock", block);
+    };
+</script>

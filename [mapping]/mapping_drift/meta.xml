@@ -1,0 +1,24 @@
+<meta>
+
+	<script src="shared/shared.lua" type="shared" cache="false"/>
+	<script src="server/server.lua" type="server" cache="false"/>
+	<script src="client/client.lua" type="client" cache="false"/>
+
+	<file src="assets/models/1.col"/>
+	<file src="assets/models/2.col"/>
+	<file src="assets/models/3.col"/>
+	<file src="assets/models/4.col"/>
+	<file src="assets/models/5.col"/>
+	<file src="assets/models/6.col"/>
+	<file src="assets/models/1.dff"/>
+	<file src="assets/models/2.dff"/>
+	<file src="assets/models/3.dff"/>
+	<file src="assets/models/4.dff"/>
+	<file src="assets/models/5.dff"/>
+	<file src="assets/models/6.dff"/>
+	<file src="assets/models/main.txd"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

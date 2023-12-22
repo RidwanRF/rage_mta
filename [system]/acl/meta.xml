@@ -1,0 +1,21 @@
+<meta>
+
+	<oop>true</oop>
+
+	<script src="server/save.lua" type="server" cache="false"/>
+	<script src="server/main.lua" type="server" cache="false"/>
+
+	<script src="shared/main.lua" type="shared" cache="false"/>
+
+	<export function="isPlayerInGroup" type="shared"/>
+	<export function="isAdmin" type="shared"/>
+	<export function="isModerator" type="shared"/>
+
+	<export function="addGroup" type="server"/>
+	<export function="removeGroup" type="server"/>
+	<export function="hasAccountGroups" type="server"/>
+
+	<download_priority_group>9999999999</download_priority_group>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

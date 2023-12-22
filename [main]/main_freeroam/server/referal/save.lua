@@ -1,0 +1,6 @@
+exports.save:addParameter('referal.code', nil, true)
+exports.save:addParameter('referal.entered_code', nil, true)
+exports.save:addParameter('referal.refer', nil, true)
+exports.save:addParameter('referal.players.invited_change', nil, true)
+exports.save:addParameter('referal.balance', nil, true)
+exports.save:addParameter('referal.take_order', true, true)

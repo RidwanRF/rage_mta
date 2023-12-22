@@ -1,0 +1,14 @@
+<meta>
+	<info type="script" name="New Flare" author="#zeed" version="1.0" />
+	<script src="replace.lua" type="client" cache="false" />
+	<file src="texture.fx" />
+	<file src="Flare.png" />
+</meta>
+
+<!--
+Название: New Flare / Новые блики
+Описание: Данный мод заменит обычные блики от фар и ламп на новые.
+Версия: 1.0 Beta / Некачественная текстура
+Автор: #zeed
+	<script src="replace.lua" type="client" cache="false" />
+-->

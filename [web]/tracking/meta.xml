@@ -1,0 +1,11 @@
+<meta>
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5" />
+
+	<script src="server/main.lua" type="server"/>
+	<script src="server/events.lua" type="server"/>
+	<script src="server/ip_tracking.lua" type="server"/>
+	
+	<export function="trackAction" type="server"/>
+	<export function="trackIpAddress" type="server"/>
+</meta>

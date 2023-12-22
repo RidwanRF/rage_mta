@@ -1,0 +1,74 @@
+<meta>
+    <oop>true</oop>
+    <download_priority_group>10000000</download_priority_group>
+    <script src="shared.lua" type="shared"   />
+    <script src="Extend/Interfacer.lua" type="client" />
+
+    <script src="Extend/ib/ib.lua" type="client"   />
+    <script src="Extend/ib/ib_animate.lua" type="client"   />
+    <script src="Extend/ib/ib_textures.lua" type="client"   />
+    <script src="Extend/ib/ib_styles.lua" type="client"   />
+
+    <!-- Основные элементы -->
+    <script src="Extend/ib/elements/ibButton.lua" type="client"   />
+    <script src="Extend/ib/elements/ibImage.lua" type="client"   />
+    <script src="Extend/ib/elements/ibLabel.lua" type="client"   />
+    <script src="Extend/ib/elements/ibEdit.lua" type="client"   />
+    <script src="Extend/ib/elements/ibScrollbarV.lua" type="client"   />
+    <script src="Extend/ib/elements/ibScrollbarH.lua" type="client"   />
+    <script src="Extend/ib/elements/ibRenderTarget.lua" type="client"   />
+    <script src="Extend/ib/elements/ibArea.lua" type="client"   />
+    <script src="Extend/ib/elements/ibBrowser.lua" type="client"   />
+    <script src="Extend/ib/elements/ibLine.lua" type="client"   />
+    <script src="Extend/ib/elements/ibWebEdit.lua" type="client"   />
+    <script src="Extend/ib/elements/ibWebMemo.lua" type="client"   />
+    <script src="Extend/ib/elements/ibWebScrollPane.lua" type="client"   />
+
+    <export function="ibButton" type="client" />
+    <export function="ibLabel" type="client" />
+    <export function="ibImage" type="client" />
+    <export function="ibEdit" type="client" />
+    <export function="ibScrollbarV" type="client" />
+    <export function="ibScrollbarH" type="client" />
+    <export function="ibRenderTarget" type="client" />
+    <export function="ibArea" type="client" />
+    <export function="ibBrowser" type="client" />
+    <export function="ibLine" type="client" />
+    <export function="ibWebEdit" type="client" />
+    <export function="ibWebMemo" type="client" />
+    <export function="ibWebScrollPane" type="client" />
+
+    <!-- Анимации -->
+    <export function="ibMove" type="client" />
+    <export function="ibResize" type="client" />
+    <export function="ibAlpha" type="client" />
+    <export function="ibRotate" type="client" />
+    <export function="ibScroll" type="client" />
+
+    <!-- Общее -->
+    <export function="ibGetData" type="client" />
+    <export function="ibSetData" type="client" />
+    <export function="ibSetBatchData" type="client" />
+    <export function="ibGetHoveredElement" type="client" />
+    <export function="ibGetStyle" type="client" />
+    <export function="ibGetAllData" type="client" />
+    <export function="ConvertToForeignFile" type="client" />
+
+    <!-- Функционал предзагрузки текстур -->
+    <script src="Extend/ib/elements/ibPreloader.lua" type="client"   />
+    <export function="ibCreatePreloader" type="client" />
+
+    <!-- Вспомогательные файлы -->
+    <file src="Extend/ib/html/ibWebEdit.html" />
+    <file src="Extend/ib/html/ibWebMemo.html" />
+    <file src="Extend/ib/html/ibWebScrollPane.html" />
+
+    <script src="Extend/ib.lua" type="client" />
+    <script src="Extend/ShUtils.lua" type="shared" />
+
+    <!-- Server Scripts -->
+    <script src="Extend/Player.lua" type="server"/>
+
+    <export function="extend" type="server" />
+    <export function="extend" type="client" />
+</meta>

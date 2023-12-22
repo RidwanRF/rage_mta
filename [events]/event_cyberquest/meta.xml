@@ -1,0 +1,96 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/quests.lua" cache="false"/>
+	<script type="shared" src="shared/levels.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/levels.lua" cache="false"/>
+	<script type="server" src="server/batteries.lua" cache="false"/>
+	<script type="server" src="server/bunches.lua" cache="false"/>
+	<script type="server" src="server/quests.lua" cache="false"/>
+	<script type="server" src="server/series.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+	<script type="client" src="client/batteries.lua" cache="false"/>
+	<script type="client" src="client/bunches.lua" cache="false"/>
+
+	<file src="assets/images/battery/bg.png"/>
+	<file src="assets/images/battery/timer.png"/>
+	<file src="assets/images/battery/round.png"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/bg1.png"/>
+	<file src="assets/images/bg2.png"/>
+	<file src="assets/images/close1.png"/>
+	<file src="assets/images/close2.png"/>
+	<file src="assets/images/logo.png"/>
+	<file src="assets/images/round.png"/>
+	<file src="assets/images/tab_shadow.png"/>
+	<file src="assets/images/title.png"/>
+	<file src="assets/images/timer.png"/>
+	<file src="assets/images/energy.png"/>
+	<file src="assets/images/line.png"/>
+	<file src="assets/images/quest_bg.png"/>
+	<file src="assets/images/donate.png"/>
+	<file src="assets/images/c_energy.png"/>
+	<file src="assets/images/item_level.png"/>
+	<file src="assets/images/money.png"/>
+
+	<file src="assets/images/icons/ak47.png"/>
+	<file src="assets/images/icons/ammo_1.png"/>
+	<file src="assets/images/icons/ammo_3.png"/>
+	<file src="assets/images/icons/ammo_4.png"/>
+	<file src="assets/images/icons/ammo_6.png"/>
+	<file src="assets/images/icons/bmwx5.png"/>
+	<file src="assets/images/icons/chips.png"/>
+	<file src="assets/images/icons/deagle.png"/>
+	<file src="assets/images/icons/donate.png"/>
+	<file src="assets/images/icons/first_aid_kit.png"/>
+	<file src="assets/images/icons/ford.png"/>
+	<file src="assets/images/icons/mk14ebr.png"/>
+	<file src="assets/images/icons/money.png"/>
+	<file src="assets/images/icons/mp5.png"/>
+	<file src="assets/images/icons/prison_ticket.png"/>
+	<file src="assets/images/icons/quadra.png"/>
+	<file src="assets/images/icons/skin.png"/>
+	<file src="assets/images/icons/vip.png"/>
+	<file src="assets/images/icons/vip_ticket.png"/>
+	<file src="assets/images/icons/pack_1.png"/>
+	<file src="assets/images/icons/pack_2.png"/>
+	<file src="assets/images/icons/pack_3.png"/>
+	<file src="assets/images/icons/pack_4.png"/>
+	<file src="assets/images/icons/pack_5.png"/>
+	<file src="assets/images/icons/pack_6.png"/>
+	<file src="assets/images/icons/pack_7.png"/>
+	<file src="assets/images/icons/pack_8.png"/>
+	<file src="assets/images/icons/pack_9.png"/>
+	<file src="assets/images/icons/cyber1.png"/>
+	<file src="assets/images/icons/cyber2.png"/>
+
+
+	<file src="assets/images/p_buy.png"/>
+	<file src="assets/images/p_buy_shadow.png"/>
+	<file src="assets/images/p_head.png"/>
+	<file src="assets/images/p_input.png"/>
+	<file src="assets/images/p_level.png"/>
+
+
+	<file src="assets/shaders/bunch.fx"/>
+	<file src="assets/shaders/mta-helper.fx"/>
+
+	<export function="setAccountVip" type="server"/>
+	<export function="givePlayerEnergy" type="server"/>
+	<export function="giveLevelReward" type="server"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>

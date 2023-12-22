@@ -1,0 +1,216 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/testdrive.lua" cache="false"/>
+	<script type="server" src="server/preview.lua" cache="false"/>
+	<script type="server" src="server/notify.lua" cache="false"/>
+	<script type="server" src="server/quit.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+    <script type="client" src="client/camera.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/testdrive.lua" cache="false"/>
+	<script type="client" src="client/shop.lua" cache="false"/>
+	<script type="client" src="client/preview.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+
+    <file src="assets/images/close.png"/>
+    <file src="assets/images/arrown.png"/>
+    <file src="assets/images/bg_shadow.png"/>
+    <file src="assets/images/close_active.png"/>
+    <file src="assets/images/close_icon.png"/>
+    <file src="assets/images/tl.png"/>
+    <file src="assets/images/logo.png"/>
+    <file src="assets/images/money.png"/>
+    <file src="assets/images/donate.png"/>
+    <file src="assets/images/item_bg.png"/>
+    <file src="assets/images/item_bg_active.png"/>
+    <file src="assets/images/cars_count.png"/>
+    <file src="assets/images/info_bg.png"/>
+    <file src="assets/images/property_line.png"/>
+    <file src="assets/images/item_bg_shadow.png"/>
+    <file src="assets/images/hints_bg.png"/>
+    <file src="assets/images/hint1.png"/>
+    <file src="assets/images/hint2.png"/>
+    <file src="assets/images/hint3.png"/>
+    <file src="assets/images/discount.png"/>
+    <file src="assets/images/buy.png"/>
+    <file src="assets/images/buy_shadow.png"/>
+    <file src="assets/images/button_shadow.png"/>
+    <file src="assets/images/button_empty_shadow.png"/>
+    <file src="assets/images/button_empty.png"/>
+    <file src="assets/images/button.png"/>
+    <file src="assets/images/colors.png"/>
+    <file src="assets/images/gui_dialog/lbg.png"/>
+    <file src="assets/images/gui_dialog/lst_bg.png"/>
+	<file src="assets/images/gui_dialog/bg.png"/>
+
+    <file src="assets/images/marks/all.png"/>
+    <file src="assets/images/marks/mercedes.png"/>
+    <file src="assets/images/marks/Jaguar.png"/>
+    <file src="assets/images/marks/McLaren.png"/>
+    <file src="assets/images/marks/Delorean.png"/>
+    <file src="assets/images/marks/BMW.png"/>
+    <file src="assets/images/marks/Bugatti.png"/>
+    <file src="assets/images/marks/Ferrari.png"/>
+    <file src="assets/images/marks/Lada.png"/>
+    <file src="assets/images/marks/Opel.png"/>
+    <file src="assets/images/marks/Mitsubishi.png"/>
+    <file src="assets/images/marks/Ford.png"/>
+    <file src="assets/images/marks/Dodge.png"/>
+    <file src="assets/images/marks/Range Rover.png"/>
+    <file src="assets/images/marks/Mountain.png"/>
+    <file src="assets/images/marks/Tesla.png"/>
+    <file src="assets/images/marks/Rolls Royce.png"/>
+    <file src="assets/images/marks/Audi.png"/>
+    <file src="assets/images/marks/Volkswagen.png"/>
+    <file src="assets/images/marks/Subaru.png"/>
+    <file src="assets/images/marks/Nissan.png"/>
+    <file src="assets/images/marks/Mazda.png"/>
+    <file src="assets/images/marks/Porsche.png"/>
+    <file src="assets/images/marks/Bentley.png"/>
+    <file src="assets/images/marks/Helicopter.png"/>
+    <file src="assets/images/marks/Zenvo.png"/>
+    <file src="assets/images/marks/Boat.png"/>
+    <file src="assets/images/marks/Kamaz.png"/>
+    <file src="assets/images/marks/Fenyr.png"/>
+    <file src="assets/images/marks/Lamborghini.png"/>
+    <file src="assets/images/marks/Koenigsegg.png"/>
+    <file src="assets/images/marks/IJ.png"/>
+    <file src="assets/images/marks/Ducati.png"/>
+    <file src="assets/images/marks/Suzuki.png"/>
+    <file src="assets/images/marks/Harley.png"/>
+    <file src="assets/images/marks/GAZ.png"/>
+    <file src="assets/images/marks/Toyota.png"/>
+    <file src="assets/images/marks/Skoda.png"/>
+    <file src="assets/images/marks/Volvo.png"/>
+    <file src="assets/images/marks/Lexus.png"/>
+    <file src="assets/images/marks/Scania.png"/>
+    <file src="assets/images/marks/Honda.png"/>
+    <file src="assets/images/marks/VAZ.png"/>
+
+    <file src="assets/images/vehicles/409.png"/>
+    <file src="assets/images/vehicles/545.png"/>
+    <file src="assets/images/vehicles/410.png"/>
+    <file src="assets/images/vehicles/494.png"/>
+    <file src="assets/images/vehicles/458.png"/>
+    <file src="assets/images/vehicles/479.png"/>
+    <file src="assets/images/vehicles/417.png"/>
+    <file src="assets/images/vehicles/418.png"/>
+    <file src="assets/images/vehicles/515.png"/>
+    <file src="assets/images/vehicles/420.png"/>
+    <file src="assets/images/vehicles/421.png"/>
+    <file src="assets/images/vehicles/422.png"/>
+    <file src="assets/images/vehicles/586.png"/>
+    <file src="assets/images/vehicles/487.png"/>
+    <file src="assets/images/vehicles/426.png"/>
+    <file src="assets/images/vehicles/490.png"/>
+    <file src="assets/images/vehicles/596.png"/>
+    <file src="assets/images/vehicles/598.png"/>
+    <file src="assets/images/vehicles/493.png"/>
+    <file src="assets/images/vehicles/602.png"/>
+    <file src="assets/images/vehicles/495.png"/>
+    <file src="assets/images/vehicles/543.png"/>
+    <file src="assets/images/vehicles/497.png"/>
+    <file src="assets/images/vehicles/547.png"/>
+    <file src="assets/images/vehicles/551.png"/>
+    <file src="assets/images/vehicles/540.png"/>
+    <file src="assets/images/vehicles/438.png"/>
+    <file src="assets/images/vehicles/491.png"/>
+    <file src="assets/images/vehicles/457.png"/>
+    <file src="assets/images/vehicles/555.png"/>
+    <file src="assets/images/vehicles/561.png"/>
+    <file src="assets/images/vehicles/562.png"/>
+    <file src="assets/images/vehicles/549.png"/>
+    <file src="assets/images/vehicles/506.png"/>
+    <file src="assets/images/vehicles/507.png"/>
+    <file src="assets/images/vehicles/535.png"/>
+    <file src="assets/images/vehicles/565.png"/>
+    <file src="assets/images/vehicles/508.png"/>
+    <file src="assets/images/vehicles/446.png"/>
+    <file src="assets/images/vehicles/510.png"/>
+    <file src="assets/images/vehicles/451.png"/>
+    <file src="assets/images/vehicles/518.png"/>
+    <file src="assets/images/vehicles/453.png"/>
+    <file src="assets/images/vehicles/522.png"/>
+    <file src="assets/images/vehicles/526.png"/>
+    <file src="assets/images/vehicles/492.png"/>
+    <file src="assets/images/vehicles/456.png"/>
+    <file src="assets/images/vehicles/478.png"/>
+    <file src="assets/images/vehicles/541.png"/>
+    <file src="assets/images/vehicles/595.png"/>
+    <file src="assets/images/vehicles/597.png"/>
+    <file src="assets/images/vehicles/461.png"/>
+    <file src="assets/images/vehicles/462.png"/>
+    <file src="assets/images/vehicles/516.png"/>
+    <file src="assets/images/vehicles/542.png"/>
+    <file src="assets/images/vehicles/567.png"/>
+    <file src="assets/images/vehicles/546.png"/>
+    <file src="assets/images/vehicles/404.png"/>
+    <file src="assets/images/vehicles/468.png"/>
+    <file src="assets/images/vehicles/469.png"/>
+    <file src="assets/images/vehicles/470.png"/>
+    <file src="assets/images/vehicles/536.png"/>
+    <file src="assets/images/vehicles/472.png"/>
+    <file src="assets/images/vehicles/560.png"/>
+    <file src="assets/images/vehicles/558.png"/>
+    <file src="assets/images/vehicles/475.png"/>
+    <file src="assets/images/vehicles/550.png"/>
+    <file src="assets/images/vehicles/563.png"/>
+    <file src="assets/images/vehicles/415.png"/>
+    <file src="assets/images/vehicles/454.png"/>
+    <file src="assets/images/vehicles/599.png"/>
+    <file src="assets/images/vehicles/547.png"/>
+    <file src="assets/images/vehicles/467.png"/>
+    <file src="assets/images/vehicles/466.png"/>
+    <file src="assets/images/vehicles/405.png"/>
+    <file src="assets/images/vehicles/580.png"/>
+    <file src="assets/images/vehicles/445.png"/>
+    <file src="assets/images/vehicles/400.png"/>
+    <file src="assets/images/vehicles/500.png"/>
+    <file src="assets/images/vehicles/401.png"/>
+    <file src="assets/images/vehicles/604.png"/>
+    <file src="assets/images/vehicles/579.png"/>
+    <file src="assets/images/vehicles/411.png"/>
+    <file src="assets/images/vehicles/496.png"/>
+    <file src="assets/images/vehicles/429.png"/>
+    <file src="assets/images/vehicles/527.png"/>
+    <file src="assets/images/vehicles/410.png"/>
+    <file src="assets/images/vehicles/517.png"/>
+    <file src="assets/images/vehicles/566.png"/>
+    <file src="assets/images/vehicles/576.png"/>
+    <file src="assets/images/vehicles/597.png"/>
+    <file src="assets/images/vehicles/474.png"/>
+    <file src="assets/images/vehicles/585.png"/>
+    <file src="assets/images/vehicles/529.png"/>
+    <!-- <file src="assets/images/vehicles/477.png"/> -->
+    <file src="assets/images/vehicles/419.png"/>
+    <file src="assets/images/vehicles/439.png"/>
+    <file src="assets/images/vehicles/436.png"/>
+    <file src="assets/images/vehicles/402.png"/>
+    <file src="assets/images/vehicles/402.png"/>
+    <file src="assets/images/vehicles/489.png"/>
+    <file src="assets/images/vehicles/559.png"/>
+    <file src="assets/images/vehicles/603.png"/>
+
+
+	<!-- DICOUNT  -->
+	<script src="discount/shared/shared.lua" type="shared" cache="false"/>
+
+	<script src="discount/server/main.lua" type="server" cache="false"/>
+
+	<export function="getDiscountModels" type="shared"/>
+	<export function="getModelDiscount" type="shared"/>
+	<export function="addDiscount" type="server"/>
+
+	
+	<oop>true</oop>
+	<download_priority_group>-1</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

@@ -1,0 +1,102 @@
+
+local sx,sy = guiGetScreenSize()
+
+local keysCancel = {
+	['i'] = true,
+	['f1'] = true,
+	['f4'] = true,
+	['f9'] = true,
+}
+
+function setSmoothMove(flag)
+
+	local speed = flag and 0.05 or 1
+
+	setAnimSpeed('cam-px', 1)
+	setAnimSpeed('cam-py', 1)
+	setAnimSpeed('cam-pz', 1)
+
+	setAnimSpeed('cam-tx', speed)
+	setAnimSpeed('cam-ty', speed)
+	setAnimSpeed('cam-tz', speed)
+
+end
+
+function onKey(button, state)
+	if button == 'i' and state then
+		camhackTooltip = not camhackTooltip
+		cancelEvent()
+	elseif button == 'c' and state and not getKeyState('lalt') then
+		smoothMove = not smoothMove
+		setSmoothMove(smoothMove)
+	elseif keysCancel[button] then
+		cancelEvent()
+	end
+end
+
+local disabledButtons = {
+	['f1'] = true,
+	['f2'] = true,
+	['f3'] = true,
+	['f4'] = true,
+	['f5'] = true,
+	['f6'] = true,
+	['f7'] = true,
+	['f8'] = true,
+	['f9'] = true,
+	['f10'] = true,
+	['f11'] = true,
+	['k'] = true,
+	['n'] = true,
+}
+addEventHandler('onClientKey', root, function(button)
+	if not hudEnabled and disabledButtons[button] then cancelEvent(  ) end
+end)
+
+hudEnabled = true
+bindKey('j', 'down', function()
+	if isCursorShowing() then 
+		hudEnabled = true
+	else
+		hudEnabled = not hudEnabled
+	end
+end)
+
+function renderCamhack()
+
+	--[[
+	if not hudEnabled then
+		-- local screen = exports.dof:getDOFShader()
+		dxUpdateScreenSource(screenSource)
+		dxDrawImage(
+			0, 0, sx,sy,
+			-- screen, 0, 0, 0, tocolor(255,255,255,255), true
+			screenSource, 0, 0, 0, tocolor(255,255,255,255), true
+		)		
+	end
+	]]--
+
+	if not hudEnabled then
+		if localPlayer:getData('settings.dof') then
+			screen = exports.dof:getDOFShader()
+		else
+			screen = exports.core:getGraphicsElement('screen_source')
+		end
+
+		dxDrawImage(
+			0, 0, sx,sy,
+			screen, 0, 0, 0, tocolor(255,255,255,255), true
+			-- screenSource, 0, 0, 0, tocolor(255,255,255,255), true
+		)
+	end
+
+	if camhackTooltip and camhackMode then
+		dxDrawImage(
+			15, 15, 470, 402,
+			'assets/images/tooltip.png', 0, 0, 0, tocolor(255,255,255,255), true
+		)
+	end
+
+end
+
+addEventHandler( "onClientRender", root, renderCamhack )

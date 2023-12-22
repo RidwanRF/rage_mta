@@ -1,0 +1,30 @@
+<meta>
+
+	<script src="shared/main.lua" type="shared" cache="false"/>
+	<script src="server/main.lua" type="server" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+
+	<file src="assets/sounds/achievment.mp3"/>
+	<file src="assets/sounds/checkbox.mp3"/>
+	<file src="assets/sounds/engine.mp3"/>
+	<file src="assets/sounds/hit.mp3"/>
+	<file src="assets/sounds/kill.mp3"/>
+	<file src="assets/sounds/loose.mp3"/>
+	<file src="assets/sounds/money.mp3"/>
+	<file src="assets/sounds/quest.mp3"/>
+	<file src="assets/sounds/bonus.mp3"/>
+	<file src="assets/sounds/win.mp3"/>
+	<file src="assets/sounds/work_finish.mp3"/>
+	<file src="assets/sounds/work_start.mp3"/>
+	<file src="assets/sounds/window_open.mp3"/>
+	<file src="assets/sounds/window_close.mp3"/>
+	<file src="assets/sounds/waterdrop.mp3"/>
+	<file src="assets/sounds/russian_empty.mp3"/>
+	<file src="assets/sounds/russian_shoot.mp3"/>
+
+	<export function="playSound" type="shared"/>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+	
+	<oop>true</oop>
+</meta>

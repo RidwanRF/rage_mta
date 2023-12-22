@@ -1,0 +1,54 @@
+<meta>
+    <info author="ganzes(Kingsman) // vk.com/ganzes77" name = 'Crypto exchange'/>
+
+    <oop>true</oop>
+
+    <script src="shared/SHCrypto.lua" type="shared" cache="false" />
+    <script src="client/sources.lua" type="client" cache="false" />
+    <script src="client/CCryptoUI.lua" type="client" cache="false" />
+    <script src="client/main.lua" type="client" cache="false" />
+    <script src="server/SCryptoMain.lua" type="server" cache="false" />
+    <script src="server/SCryptoBets.lua" type="server" cache="false" />
+
+    <file src="img/bg.png"/>
+    <file src="img/header.png"/>
+    <file src="img/money.png"/>
+    <file src="img/line.png"/>
+
+    <file src="img/icons/btc.png"/>
+    <file src="img/icons/btc_round.png"/>
+    <file src="img/icons/dash.png"/>
+    <file src="img/icons/dash_round.png"/>
+    <file src="img/icons/ethereum.png"/>
+    <file src="img/icons/ethereum_round.png"/>
+    <file src="img/icons/litcoin.png"/>
+    <file src="img/icons/litcoin_round.png"/>
+    <file src="img/icons/monero.png"/>
+    <file src="img/icons/monero_round.png"/>
+    <file src="img/left_bg.png"/>
+    <file src="img/item_hover.png"/>
+    <file src="img/item_line.png"/>
+    <file src="img/exc_item.png"/>
+    <file src="img/exc_item_i.png"/>
+    <file src="img/exc_btn.png"/>
+    <file src="img/exc_btn_h.png"/>
+    <file src="img/edit_bg.png"/>
+    <file src="img/edit_bg1.png"/>
+    <file src="img/exchange.png"/>
+    <file src="img/minus.png"/>
+    <file src="img/plus.png"/>
+    <file src="img/bet_bg.png"/>
+    <file src="img/exit.png"/>
+    <file src="img/down.png"/>
+    <file src="img/up.png"/>
+    <file src="img/graphic_s.png"/>
+    <file src="img/graphic_line.png"/>
+    <file src="img/graphic_line1.png"/>
+    <file src="img/selected.png"/>
+
+    <!-- Шрифты -->
+    <file src="fonts/ProximaNova-Bold.ttf"/>
+    <file src="fonts/ProximaNova-Regular.ttf"/>
+    <file src="fonts/ProximaNova-Semibold.ttf"/>
+
+</meta>

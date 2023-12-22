@@ -1,0 +1,13 @@
+<meta>
+	<script src="shader.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server" cache="false"/>
+	<file src="shader.fx" />	
+	<file src="img/doroga1.png" />	
+	<file src="img/sneg.png" />	
+	<file src="img/holod.png" />
+	<file src="img/bard.png" />
+	<file src="img/bard1.png" />
+	<file src="img/doroga_1.png" />
+	<file src="img/doroga_2.png" />
+	
+</meta>

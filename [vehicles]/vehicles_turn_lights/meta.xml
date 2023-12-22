@@ -1,0 +1,19 @@
+<meta>
+    <info author="Wherry" version="18-02-05" name="Car turn lights system" type="script"/>
+    <oop>true</oop>
+
+    <script type="shared" cache="false" src="shared/config.lua"/>
+    <script type="shared" cache="false" src="shared/utils.lua"/>
+
+    <script type="client" cache="false" src="client/custom_lights.lua"/>
+    <script type="client" cache="false" src="client/lights_main.lua"/>
+    <script type="client" cache="false" src="client/lights_anim.lua"/>
+    <script type="client" cache="false" src="client/lights_control.lua"/>
+    <script type="client" cache="false" src="client/lights_sync.lua"/>
+
+    <export function="setLocalLightsData" type="client"/>
+    <export function="getVehicleLightData" type="client"/>
+
+    <file src="assets/shader.fx"/>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

@@ -1,0 +1,21 @@
+<meta>
+    <info author="vk.com/ganzes77"/>
+
+    <oop>true</oop>
+
+    <script src="Shared.lua" type="shared" cache="false" />
+    <script src="CInit.lua" type="client" cache="false" />
+    <script src="CUIJoin.lua" type="client" cache="false"/>
+    <script src="CUI.lua" type="client" cache="false" />
+    <script src="Server.lua" type="server" cache="false" />
+
+    <file src="img/bg.png"/>
+    <file src="img/btn.png"/>
+    <file src="img/btn_empty.png"/>
+    <file src="img/btn_empty_shadow.png"/>
+    <file src="img/btn_shadow.png"/>
+    <file src="manrope_semibold.ttf"/>
+    <file src="img/icon2.png"/>
+    <file src="img/bg_shadow.png"/>
+
+</meta>

@@ -1,0 +1,51 @@
+<meta>
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+	<script type="shared" src="shared/vehicles.lua" cache="false"/>
+	<script type="shared" src="shared/unique_marks.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/vehicles_save.lua" cache="false"/>
+	<script type="server" src="server/manage.lua" cache="false"/>
+	<script type="server" src="server/handlers.lua" cache="false"/>
+	<script type="server" src="server/numberPlates.lua" cache="false"/>
+	<script type="server" src="server/exports.lua" cache="false"/>
+	<script type="server" src="server/parkingLots.lua" cache="false"/>
+	<script type="server" src="server/wipe.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+	<script type="server" src="server/vehicles_expire.lua" cache="false"/>
+	<script type="server" src="server/handling.lua" cache="false"/>
+	
+	<script type="client" src="client/sync.lua" cache="false"/>
+
+	<export function="giveAccountVehicle" type="server"/>
+	<export function="loadVehicleAppearance" type="server"/>
+	<export function="calculatePlayerParkingLots" type="server"/>
+	<export function="updatePlayerParkingLots" type="server"/>
+	<export function="returnPlayerVehicles" type="server"/>
+	<export function="loadVehicleData" type="server"/>
+	<export function="clearVehicle" type="server"/>
+	<export function="saveVehicleData" type="server"/>
+	<export function="setVehicleData" type="server"/>
+	<export function="getVehiclesOfModel" type="server"/>
+	<export function="doRespawnVehicle" type="server"/>
+	<export function="generatePlate" type="server"/>
+	<export function="wipeAccount" type="server"/>
+	<export function="wipeVehicle" type="server"/>
+	<export function="getSqueezedData" type="server"/>
+
+	<export function="getVehicleModName" type="shared"/>
+	<export function="getVehiclesList" type="shared"/>
+	<export function="getVehicleMaxFuel" type="shared"/>
+	<export function="getVehicleConfig" type="shared"/>
+	<export function="getVehicleCost" type="shared"/>
+	<export function="getVehicleLots" type="shared"/>
+	<export function="getVehicleSetting" type="shared"/>
+	<export function="getVehicleProperty" type="shared"/>
+	<export function="getVehicleUniqueMark" type="shared"/>
+
+	<oop>true</oop>
+	<download_priority_group>1</download_priority_group>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

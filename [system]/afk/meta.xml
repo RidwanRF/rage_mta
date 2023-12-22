@@ -1,0 +1,15 @@
+<meta>
+
+	<oop>true</oop>
+	
+	<script src="shared/main.lua" type="shared" cache="false"/>
+
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/client.lua" type="client" cache="false"/>
+	
+	<script src="server/main.lua" type="server" cache="false"/>
+
+	<export function="isAFK" type="shared"/>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

@@ -1,0 +1,22 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+	<script type="server" src="server/stars.lua" cache="false"/>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+	<export function="addPlayerStars" type="server"/>
+	<export function="setPlayerStars" type="server"/>
+	<export function="givePrisonByStars" type="server"/>
+
+	<export function="getPlayerStars" type="shared"/>
+
+	<export function="getConfigSetting" type="shared"/>
+	<export function="getPlayerWithdraws" type="shared"/>
+
+	<oop>true</oop>
+</meta>

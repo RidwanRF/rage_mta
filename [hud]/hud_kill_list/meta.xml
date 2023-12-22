@@ -1,0 +1,21 @@
+<meta>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	
+	<file src="assets/images/weapon/0.png"/>
+	<file src="assets/images/weapon/4.png"/>
+	<file src="assets/images/weapon/5.png"/>
+	<file src="assets/images/weapon/22.png"/>
+	<file src="assets/images/weapon/24.png"/>
+	<file src="assets/images/weapon/28.png"/>
+	<file src="assets/images/weapon/29.png"/>
+	<file src="assets/images/weapon/30.png"/>
+	<file src="assets/images/weapon/31.png"/>
+	<file src="assets/images/weapon/32.png"/>
+	<file src="assets/images/weapon/34.png"/>
+
+	
+	<oop>true</oop>
+
+</meta>

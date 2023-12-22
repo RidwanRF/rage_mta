@@ -1,0 +1,10 @@
+
+exports.save:addParameter('license.rules')
+exports.save:addParameter('license.drugs')
+exports.save:addParameter('license.weapon')
+exports.save:addParameter('license.A')
+exports.save:addParameter('license.B')
+exports.save:addParameter('license.C')
+exports.save:addParameter('license.D')
+exports.save:addParameter('license.V')
+exports.save:addParameter('license.W')

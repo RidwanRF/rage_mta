@@ -1,0 +1,14 @@
+<meta>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/info.png"/>
+	<file src="assets/images/logo.png"/>
+	
+	<oop>true</oop>
+
+	<download_priority_group>10</download_priority_group>
+</meta>

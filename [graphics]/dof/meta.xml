@@ -1,0 +1,16 @@
+<meta>
+	<info author="Onwexry, Daeman" version="17-08-08" name="Custom road textures" type="script" />
+	
+    <script src="dofsshader.lua" type="client" cache="false"/>
+	
+	<file src="shaders/blur.fx" />
+	<file src="shaders/dof.fx" />
+	<file src="shaders/farPlane.fx" />
+	<file src="shaders/mta-helper.fx" />
+
+	<export function="getDOFShader" type="client"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>
+	

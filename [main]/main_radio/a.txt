@@ -1,0 +1,28 @@
+ <li class="tracks__item track mustoggler" data-musid="track-id-63782872" data-musmeta='{"artist":"Marshmello, Tyga, Chris Brown","title":"Light It Up","url":"https:\/\/rum.hotmo.org\/get\/cuts\/4a\/b1\/4ab12476bb5c3d92faffa101151fe9cd\/63782872\/Marshmello_Tyga_Chris_Brown_-_Light_It_Up_b128f0d137.mp3","img":"\/covers\/a\/b8a\/7d9\/517840.jpg","id":"track-id-63782872"}'>
+            <div class="track__play">
+                <div class="equalizer">
+                    <div class="equalizer-bar"></div>
+                    <div class="equalizer-bar"></div>
+                    <div class="equalizer-bar"></div>
+                    <div class="equalizer-bar"></div>
+                </div>
+            </div>
+            <div class="track__img" style="background-image: url('/covers/a/b8a/7d9/517840.jpg');"></div>
+            <div class="track__info">
+                <a href="/song/63782872" class="track__info-l">
+                    <div class="track__title">
+                                                    Light It Up
+                                            </div>
+                    <div class="track__desc">Marshmello, Tyga, Chris Brown</div>
+                </a>
+
+                <div class="track__info-r">
+                    <div class="track__time">
+                        <div class="track__fulltime">02:17</div>
+                        <div class="track__duration"></div>
+                    </div>
+
+                    <a data-nopjax href="https://rum.hotmo.org/get/music/20190427/Marshmello_Tyga_Chris_Brown_-_Light_It_Up_63782872.mp3" class="track__download-btn"></a>
+                </div>
+            </div>
+        </li>

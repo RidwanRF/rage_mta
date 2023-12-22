@@ -1,0 +1,28 @@
+﻿<meta>
+	<min_mta_version client="1.5.2-9.07903" server="1.3.4-0.00000" />
+	<oop>true</oop>
+	
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/render.lua" type="client" cache="false"/>
+	<script src="client/controlpoints.lua" type="client" cache="false"/>
+
+	<file src="assets/images/house_free.png"/>
+	<file src="assets/images/house_occ.png"/>
+	<file src="assets/images/house_own.png"/>
+	<file src="assets/images/flat.png"/>
+	
+	<file src="assets/images/business_free.png"/>
+	<file src="assets/images/business_occ.png"/>
+	<file src="assets/images/business_own.png"/>
+	
+	<file src="assets/images/derrick_free.png"/>
+	<file src="assets/images/derrick_occ.png"/>
+	<file src="assets/images/derrick_own.png"/>
+	
+	<file src="assets/images/cp.png"/>
+	<file src="assets/images/triangle.png"/>
+	
+	<download_priority_group>-1</download_priority_group>
+	
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

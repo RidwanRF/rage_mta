@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+	<script src="markers.lua" type="client" cache="false"/>
+	<script src="colshapes.lua" type="client" cache="false"/>
+	<file src="round.png"/>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

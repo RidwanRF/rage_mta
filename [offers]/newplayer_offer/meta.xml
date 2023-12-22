@@ -1,0 +1,15 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="ShOffer.lua" type="shared" />
+	<script src="COffer.lua" type="client" cache="false"/>
+	<script src="SOffer.lua" type="server" cache="false"/>
+
+	<file src="img/t_bg.png"/>
+	<file src="img/close.png"/>
+	<file src="img/close_icon.png"/>
+	<file src="img/item.png"/>
+	<file src="img/pbtn.png"/>
+	<file src="img/pbtn_empty.png"/>
+	<file src="img/scroll.png"/>
+</meta>

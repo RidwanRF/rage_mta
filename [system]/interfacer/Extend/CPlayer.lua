@@ -1,0 +1,3 @@
+-- CPlayer.lua
+
+Import( "ShPlayer" )

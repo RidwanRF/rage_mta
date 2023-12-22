@@ -1,0 +1,40 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/auction.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+	<script type="server" src="server/mapping.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+	<script type="client" src="client/cran.lua" cache="false"/>
+
+	<file src="assets/images/bet_bg.png"/>
+	<file src="assets/images/bet_leader.png"/>
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/button.png"/>
+	<file src="assets/images/button_shadow.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/ctr_bg.png"/>
+	<file src="assets/images/make_bert_bg.png"/>
+	<file src="assets/images/timer.png"/>
+	<file src="assets/images/timer_bg.png"/>
+	<file src="assets/images/timer_bg_shadow.png"/>
+	<file src="assets/images/title_bg.png"/>
+	<file src="assets/images/title_icon.png"/>
+	<file src="assets/images/unknown_ctr.png"/>
+
+	<file src="assets/images/items/f90.png"/>
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

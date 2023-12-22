@@ -1,0 +1,57 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/sources.lua" type="client" cache="false"/>
+	<script src="client/utils.lua" type="client" cache="false"/>
+	<script src="client/animations.lua" type="client" cache="false"/>
+	<script src="client/main.lua" type="client" cache="false"/>
+	<script src="client/headlight.lua" type="client" cache="false"/>
+
+	<script src="client/models/gt500.lua" type="client" cache="false"/>
+	<script src="client/models/huracan.lua" type="client" cache="false"/>
+	<script src="client/models/progress.lua" type="client" cache="false"/>
+	<script src="client/models/rs6.lua" type="client" cache="false"/>
+	<script src="client/models/phantom.lua" type="client" cache="false"/>
+	<script src="client/models/divo.lua" type="client" cache="false"/>
+	<script src="client/models/supra.lua" type="client" cache="false"/>
+	<script src="client/models/c63.lua" type="client" cache="false"/>
+	<script src="client/models/c63_coupe.lua" type="client" cache="false"/>
+	<script src="client/models/maybach.lua" type="client" cache="false"/>
+	<script src="client/models/lexus_gsf.lua" type="client" cache="false"/>
+	<script src="client/models/chiron.lua" type="client" cache="false"/>
+	<script src="client/models/chiron20.lua" type="client" cache="false"/>
+	<script src="client/models/panamera.lua" type="client" cache="false"/>
+	<script src="client/models/cullinan.lua" type="client" cache="false"/>
+	<script src="client/models/camry.lua" type="client" cache="false"/>
+	<script src="client/models/rx7.lua" type="client" cache="false"/>
+	
+	<file src="assets/shaders/chiron.fx" type="client" cache="false"/>
+	<file src="assets/shaders/cadillac.fx" type="client" cache="false"/>
+	<file src="assets/shaders/cullinan.fx" type="client" cache="false"/>
+	<file src="assets/shaders/maybach.fx" type="client" cache="false"/>
+	<file src="assets/shaders/maybach_rear.fx" type="client" cache="false"/>
+	<file src="assets/shaders/divo_rear.fx" type="client" cache="false"/>
+	<file src="assets/shaders/divo.fx" type="client" cache="false"/>
+	<file src="assets/shaders/911-ruf.fx" type="client" cache="false"/>
+	<file src="assets/shaders/a7.fx" type="client" cache="false"/>
+	<file src="assets/shaders/a7_rear.fx" type="client" cache="false"/>
+	<file src="assets/shaders/c63.fx" type="client" cache="false"/>
+	<file src="assets/shaders/e63.fx" type="client" cache="false"/>
+	<file src="assets/shaders/rangerover.fx" type="client" cache="false"/>
+	<file src="assets/shaders/mark2.fx" type="client" cache="false"/>
+	<file src="assets/shaders/rs6.fx" type="client" cache="false"/>
+	<file src="assets/shaders/fenyr.fx" type="client" cache="false"/>
+	<file src="assets/shaders/veyron.fx" type="client" cache="false"/>
+	<file src="assets/shaders/g63.fx" type="client" cache="false"/>
+	<file src="assets/shaders/gt63.fx" type="client" cache="false"/>
+	<file src="assets/shaders/camry.fx" type="client" cache="false"/>
+	<file src="assets/shaders/camry_rear.fx" type="client" cache="false"/>
+	<file src="assets/shaders/rs7.fx" type="client" cache="false"/>
+	<file src="assets/shaders/phantom_1.fx" type="client" cache="false"/>
+	<file src="assets/shaders/phantom_2.fx" type="client" cache="false"/>
+	<file src="assets/shaders/x6m.fx" type="client" cache="false"/>
+	<file src="assets/shaders/i8.fx" type="client" cache="false"/>
+	<file src="assets/shaders/progress.fx" type="client" cache="false"/>
+	<file src="assets/shaders/progress_rear.fx" type="client" cache="false"/>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

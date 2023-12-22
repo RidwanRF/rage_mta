@@ -1,0 +1,13 @@
+<meta>
+
+	<oop>true</oop>
+
+	<script src="shared/main.lua" type="shared" cache="false"/>
+	<export function="isPlayerInZone" type="shared"/>
+	<export function="isPlayerInGhetto" type="shared"/>
+	<export function="getGhettoZone" type="shared"/>
+
+	<download_priority_group>1</download_priority_group>
+
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+</meta>

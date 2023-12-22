@@ -1,0 +1,16 @@
+<meta>
+	<download_priority_group>100000</download_priority_group>
+
+	<!-- Анимация загрузки -->
+	<file src="img/loading/l1.png" />
+	<file src="img/loading/l2.png" />
+	<file src="img/loading/l3.png" />
+
+	<file src="img/scroll_bg.png" />
+	<file src="img/scroll_bg_slim.png" />
+	<file src="img/scroll_bg_slim_small.png" />
+	<file src="img/scroll_bg_small.png" />
+	<file src="img/scroll_h_bg_slim.png" />
+	<file src="img/confirm_btn_close.png"/>
+
+</meta>

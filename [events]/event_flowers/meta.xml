@@ -1,0 +1,43 @@
+<meta>
+
+	<script type="shared" src="shared/config.lua" cache="false"/>
+	<script type="shared" src="shared/shared.lua" cache="false"/>
+
+	<script type="server" src="server/sources.lua" cache="false"/>
+	<script type="server" src="server/main.lua" cache="false"/>
+	<script type="server" src="server/levels.lua" cache="false"/>
+	<script type="server" src="server/save.lua" cache="false"/>
+
+	<script type="client" src="client/sources.lua" cache="false"/>
+	<script type="client" src="client/gui.lua" cache="false"/>
+	<script type="client" src="client/main.lua" cache="false"/>
+	<script type="client" src="client/markers.lua" cache="false"/>
+
+	<file src="assets/images/bg.png"/>
+	<file src="assets/images/bg_shadow.png"/>
+	<file src="assets/images/snow.png"/>
+	<file src="assets/images/fon.png"/>
+	<file src="assets/images/close.png"/>
+	<file src="assets/images/close_active.png"/>
+	<file src="assets/images/close_icon.png"/>
+	<file src="assets/images/flower1.png"/>
+	<file src="assets/images/flower2.png"/>
+	<file src="assets/images/garland.png"/>
+	<file src="assets/images/item_bg.png"/>
+	<file src="assets/images/level_bg.png"/>
+	<file src="assets/images/list_bg.png"/>
+	<file src="assets/images/progress.png"/>
+
+
+	<file src="assets/images/flowers/tulip.png"/>
+	<file src="assets/images/flowers/camomile.png"/>
+	<file src="assets/images/flowers/rose.png"/>
+	
+	<file src="assets/images/rewards/money.png"/>
+	<file src="assets/images/rewards/f90.png"/>
+	<file src="assets/images/rewards/camry70.png"/>
+
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5"/>
+
+</meta>
